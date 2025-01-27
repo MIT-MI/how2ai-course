@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+html, body {
+  height: auto;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  max-width: none;
+}
+
+em img {
+  max-width: 100%;
+  margin-left: 0;
+}
+
+body {
+          box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$horizontal-spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$horizontal-spacing-unit}));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $horizontal-spacing-unit / 2;
+    padding-left: $horizontal-spacing-unit / 2;
+    @extend .clearfix;
+
+    @media screen and (min-width: $on-large) {
+        max-width: -webkit-calc(#{$content-width} - (#{$horizontal-spacing-unit} * 2));
+        max-width:         calc(#{$content-width} - (#{$horizontal-spacing-unit} * 2));
+        padding-right: $horizontal-spacing-unit;
+        padding-left: $horizontal-spacing-unit;
+  }
+}

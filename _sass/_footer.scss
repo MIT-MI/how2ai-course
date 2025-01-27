@@ -1,0 +1,77 @@
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $vertical-spacing-unit 0;
+
+  a {
+    color: $theme-color;
+    i { color: $text-color; }
+
+    &:hover {
+      text-decoration: underline;
+      i { color: $theme-color; }
+    }
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}
+
+.footer-heading {
+  font-size: 1.125rem;
+  margin-bottom: $vertical-spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  color: $grey-color;
+  font-size: 0.9375;
+  margin-left: -$horizontal-spacing-unit / 2;
+  @extend .clearfix;
+}
+
+.footer-col {
+  width: -webkit-calc(100% - (#{$horizontal-spacing-unit} / 2));
+  width:         calc(100% - (#{$horizontal-spacing-unit} / 2));
+  margin-bottom: $vertical-spacing-unit / 2;
+  padding-left: $horizontal-spacing-unit / 2;
+}
+
+.footer-col-1,
+.footer-col-2 {
+  width: -webkit-calc(50% - (#{$horizontal-spacing-unit} / 2));
+  width:         calc(50% - (#{$horizontal-spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: -webkit-calc(100% - (#{$horizontal-spacing-unit} / 2));
+  width:         calc(100% - (#{$horizontal-spacing-unit} / 2));
+}
+
+@media screen and (min-width: $on-large) {
+  .footer-col-1 {
+    width: -webkit-calc(35% - (#{$horizontal-spacing-unit} / 2));
+    width:         calc(35% - (#{$horizontal-spacing-unit} / 2));
+  }
+
+  .footer-col-2 {
+    width: -webkit-calc(20% - (#{$horizontal-spacing-unit} / 2));
+    width:         calc(20% - (#{$horizontal-spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(45% - (#{$horizontal-spacing-unit} / 2));
+    width:         calc(45% - (#{$horizontal-spacing-unit} / 2));
+  }
+}
+
+@media screen and (min-width: $on-medium) {
+  .footer-col {
+    float: left;
+  }
+}

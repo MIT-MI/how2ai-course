@@ -1,0 +1,29 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.col {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing:border-box;
+    padding: $img-spacing;
+}
+
+.one {
+    width:33%;
+}
+.two {
+    width: 66%;
+}
+.three {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}

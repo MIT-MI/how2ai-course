@@ -1,0 +1,6 @@
+<ul class="social-media-list">
+  {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"><i class="fab fa-github"></i> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.youtube_username -%}<li><a href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}"  target="_blank"><i class="fab fa-youtube"></i> <span class="username">{{ site.youtube_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.youtube_channel -%}<li><a href="https://www.youtube.com/channel/{{ site.youtube_channel| cgi_escape | escape }}"  target="_blank"><i class="fab fa-youtube"></i> <span class="username">{%- if site.youtube_channel_name -%}{{ site.youtube_channel_name | escape }}{%- else -%}YouTube{%- endif -%}</span></a></li>{%- endif -%}
+  {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"  target="_blank"><i class="fas fa-rss"></i> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
+</ul>

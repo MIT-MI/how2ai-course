@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-description">{{ page.description }}</h2>
+  </header>
+
+  <article class="post-content {{page.title}} clearfix">
+    <table class="table table-hover">
+      <colgroup>
+        <col style="width:5%">
+        <col style="width:55%">
+        <col style="width:40%">
+      </colgroup>
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Topics</th>
+          <th scope="col">Readings</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ content }}
+      </tbody>
+    </table>
+  </article>
+
+</div>

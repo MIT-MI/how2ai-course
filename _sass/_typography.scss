@@ -1,0 +1,54 @@
+html {
+    font-size: $base-font-size;
+}
+
+body {
+    color: $text-color;
+}
+
+abbr {
+    border-bottom: $abbr-border-bottom;
+    cursor: help;
+}
+
+p {
+    color: #333;
+    // line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    body {
+        // font-weight: 100;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        // font-weight: 100;
+    }
+}
+
+small,
+.small {
+    font-size: 0.707rem;
+}
+
+sup {
+    position: relative;
+    vertical-align: middle;
+    top: -0.9ex;
+}
+
+div.equation {
+    margin: $space-1 0;
+    text-align: center;
+}
+
+latex-js {
+    display: block;
+    margin-bottom: -webkit-calc(#{$vertical-spacing-unit} / 2);
+    margin-bottom:         calc(#{$vertical-spacing-unit} / 2);
+}
