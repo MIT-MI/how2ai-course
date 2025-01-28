@@ -1,332 +1,97 @@
-- date: 1/16
+- date: 2/4
   title: >
-    Week 1 <strong>Course Introduction</strong> <a href="11_877_week1_slides.pdf">[slides]</a>
-
-  slides:
-  topics:
-    - Course syllabus and requirements
-    - Multimodal principles&#58; heterogeneity, connections, and interactions
-    - Multimodal technical challenges
-    - Multimodal research problems
-  readings:
-    - <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br/>
-    - <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br/>
-    - <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br/>
-
-- date: 1/23
-  title: >
-    Week 2 <strong>Foundation Part1: Dimensions of Heterogeneity</strong> <a href="11_877_week2_synopsis.pdf">[synopsis]</a>
-  slides:
-  topics:
-    - What is a taxonomy of the dimensions in which modalities can be heterogeneous? What are intuitive definitions of each dimension of heterogeneity?
-    - Heterogeneity is also often seen in several other ML subfields (e.g., domain adaptation, domain shift, transfer learning, multitask learning, federated learning, etc). What are some similarities and differences between the notions of heterogeneity between MMML and these fields? Can definitions or methods in each area be adapted to benefit other research areas?
-    - How can we formalize these dimensions of heterogeneity, and subsequently estimate these measures to quantify the degree in which modalities are different?
-    - Heterogeneity in noise (e.g., due to sensor and system failures) is a relative understudied dimension. How can we reliably understand the unique noise topologies in modalities, to design more robust models?
-    - Modality heterogeneity often implies the design of specialized models capturing the unique properties of each modality. What are some tradeoffs in modality-specific vs modality-general models?
-    - Within each of the 6 multimodal challenges - representation, alignment, reasoning, generation, transference, quantification, how can the study of heterogeneity inform various modeling decisions? What problems could happen in practice if heterogeneity is not properly understood or modeled?
-  readings:
-    - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
-    - <a href="https://arxiv.org/abs/1804.08328">Taskonomy&#58; Disentangling Task Transfer Learning</a> <br/>
-    - <a href="https://arxiv.org/abs/1905.07553">Which Tasks Should Be Learned Together in Multi-task Learning?</a> <br/>
-    - <a href="https://arxiv.org/abs/2002.02923">Geometric Dataset Distances via Optimal Transport</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.08646">AutoFed&#58; Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving</a> <br/>
-    - <a href="https://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Brummer_Natural_Image_Noise_Dataset_CVPRW_2019_paper.html">Natural Image Noise Dataset</a> <br/>
-    - <a href="https://arxiv.org/abs/1711.02173">Synthetic and Natural Noise Both Break Neural Machine Translation</a> <br/>
-
-- date: 1/30
-  title: >
-    Week 3 <strong>Foundation Part2: Multimodal Connections</strong> <a href="11_877_week3_synopsis.pdf">[synopsis]</a>
-  slides:
-  topics:
-    - What are the reasons why modalities can be connected with each other? Come up with a taxonomy of various dimensions. Think along both statistical, data-driven dimensions and semantic, hypothesis or knowledge driven dimensions. How can we define estimators, where we can accurately quantify the presence of each type of connection given a dataset?
-    - Are connections always strong and one-to-one? Reflect on what could make some cross-modal connections stronger or weaker, including many-to-many connections, ambiguity, noises, or adversarial attacks. How can we adapt our learning methods to account for these imperfections?
-    - Given trained multimodal models, how can we understand or visualize the nature of connections captured by the model? What benchmarks should we design to probe the quality of learned connections?
-    - How can we better learn connections that happen at a very fine-grained and compositional level? Are there new inductive biases we might need to build into vision-language connection models?
-  readings:
-    - <a href="https://arxiv.org/abs/2210.01936">When and why vision-language models behave like bags-of-words, and what to do about it?</a> <br/>
-    - <a href="https://link.springer.com/article/10.1007/s13735-019-00187-6">Characterization and classification of semantic image-text relations</a> <br/>
-    - <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br/>
-    - <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Lin_Relaxing_Contrastiveness_in_Multimodal_Representation_Learning_WACV_2023_paper.pdf">Relaxing Contrastiveness in Multimodal Representation Learning</a> <br/>
-    - <a href="https://arxiv.org/abs/2210.09304">Non-Contrastive Learning Meets Language-Image Pre-Training</a> <br/>
-    - <a href="https://www.emerald.com/insight/content/doi/10.1108/00220410310506303/full/pdf?title=a-taxonomy-of-relationships-between-images-and-text">A Taxonomy of Relationships between Images and Text</a> <br/>
-    - <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Hager_Best_of_Both_Worlds_Multimodal_Contrastive_Learning_With_Tabular_and_CVPR_2023_paper.pdf">Best of Both Worlds&#58; Multimodal Contrastive Learning with Tabular and Imaging Data</a> <br/>
-    - <a href="https://arxiv.org/abs/2303.03323">CleanCLIP&#58; Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning</a> <br/>
-    - <a href="https://chinese.wooster.edu/files/barthes.pdf">Image-Music-Text</a> <br/>
-    - <a href="https://journals.sagepub.com/doi/epdf/10.1177/1470357205055928">A System for Image–text Relations in New (and Old) Media</a> <br/>
-
-- date: 2/6
-  title: >
-    Week 4 <strong>Foundation Part3: Multimodal Interactions</strong> <a href="11_877_week4_synopsis.pdf">[synopsis]</a>
-  slides:
-  topics:
-    - What are the different ways in which modalities can interact with each other when used for prediction tasks? Think across both semantic and statistical perspectives. Can we formalize a taxonomy of such interactions, which will enable us to compare and contrast them more precisely? In fact, should we even try creating such a taxonomy?
-    - Can you think of ways modalities could interact with each other, even if there is no prediction task? How are modalities interacting during cross-modal translation? During multimodal generation?
-    - Linking back to last week’s discussion, are there cases where modalities are connected but do not interact? Or interact but are not connected? Can we design formal experiments to test either hypothesis?
-    - What mathematical or empirical frameworks can be used to formalize the meaning of interactions? How can we subsequently define estimators, where we can accurately quantify the presence of each type of interactions given a dataset?
-    - Some definitions (from the semantic category) typically require human interactions to detect and quantify interactions. What are some opportunities and limitations of using human judgment to analyze interactions? Can we potentially design estimators to automate the human labeling process?
-    - Can you think of ways to utilize large language models or other foundation models to enhance the learning process of multimodal interactions?
-    - How to utilize cognitive theory to design a framework that can be used to understand and learn the interactions between multiple modalities that human beings face everyday?
-  readings:
-    - <a href="https://arxiv.org/pdf/2205.09256.pdf">Training Vision-Language Transformers from Captions</a> <br/>
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/319382.319398">Ten Myths of Multimodal Interaction</a> <br/>
-    - <a href="https://arxiv.org/pdf/2401.01862.pdf">A Vision Check-up for Language Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/2303.07226.pdf">Scaling Vision-Language Models with Sparse Mixture of Experts</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br/>
-    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br/>
-    - <a href="https://dl.acm.org/doi/abs/10.1145/1027933.1027957">When do we interact multimodally?&#58; cognitive load and multimodal communication patterns</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010027715300858?casa_token=p9q2QcgTKB0AAAAA:g8Z9aww-Ca86HAXX3coq0GPemqVHltlcaFouEWQ7PWM6mZONTdawEkQS9_lQTdrZ0oS_KHMaRQ">A multimodal parallel architecture&#58; A cognitive framework for multimodal interactions</a> <br/>
-    - <a href="https://arxiv.org/abs/cs/0308002">Quantifying and Visualizing Attribute Interactions</a> <br/>
-    - <a href="https://www.sesp.org/files/The%20Moderator-Baron.pdf">The Moderator-Mediator Variable Distinction in Social Psychological Research&#58; Conceptual, Strategic, and Statistical Considerations</a> <br/>
-
-- date: 2/13
-  title: >
-    Week 5 <strong>Multimodal LLMs Part1: Data, Pretraining, and Scaling Laws</strong> <a href="11_877_week5_synopsis.pdf">[synopsis]</a>
-  slides:
-  topics:
-    - What types of multimodal data noise are typically present in multimodal datasets, and how can they negatively impact the performance of a model during training? Can you provide examples of multimodal data points that might be considered noisy? Furthermore, how might we develop estimators capable of distinguishing between noisy and noise-free multimodal data pairs? If you have unlimited fundings to use for data filtering and data cleaning, what would be the ideal way to clean the multimodal dataset?
-    - Given the demonstrated effectiveness of high-quality pretraining, as evidenced by projects like Mistral, imagine you have access to a large-scale, high-quality multimodal dataset for pre-training purposes. What types of generalization or additional capabilities might this enable the model to acquire compared to those trained on lower-quality data? Why do models trained with high-quality data obtain such abilities?
-    - Considering the diversity of model architectures available for multimodal generation, which architecture would be most suitable for scaling general multimodal generation tasks? Moreover, which model architecture is best equipped to learn complex multimodal interactions effectively?
-    - What are some pros and cons of treating data from all modalities equally (throwing them into a single large generative Transformer, after tokenizing the data)?
-    - If you were leading a multimodal foundation model project equipped with extensive resources, including a skilled team and significant GPU capabilities, what multimodal architecture and types of multimodal data would you prioritize for an initial pilot study?
-    - In exploring the scaling laws of multimodal models, different papers have different definitions for scaling law formulas. Which factors should be incorporated into the scaling law formula, and which among these do you believe is the most critical to consider?
-
-  readings:
-    - <a href="https://arxiv.org/abs/2102.03334">ViLT&#58; Vision-and-Language Transformer Without Convolution or Region Supervision</a> <br/>
-    - <a href="https://arxiv.org/abs/2301.03728">Scaling Laws for Generative Mixed-Modal Language Models</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/eacad5b8e67850f2b8dd33d87691d097-Paper-Conference.pdf">Scaling Multimodal Pre-Training via Cross-Modality Gradient Harmonization</a> <br/>
-    - <a href="https://arxiv.org/pdf/2010.14701.pdf">Scaling Laws for Autoregressive Generative Modeling</a> <br/>
-    - <a href="https://arxiv.org/pdf/2401.17377.pdf">Infini-gram&#58; Scaling Unbounded n-gram Language Models to a Trillion Tokens</a> <br/>
-    - <a href="https://arxiv.org/pdf/2311.18775.pdf">CoDi-2&#58; In-Context, Interleaved, and Interactive Any-to-Any Generation</a> <br/>
-    - <a href="https://arxiv.org/pdf/2208.05516.pdf">Quality Not Quantity&#58; On the Interaction between Datase Design and Robustness of CLIP</a> <br/>
-    - <a href="https://arxiv.org/pdf/2304.06939.pdf">Multimodal C4&#58; An Open, Billion-scale Corpus of Images Interleaved with Text</a> <br/>
-    - <a href="https://arxiv.org/pdf/2307.10350.pdf">Improving Multimodal Datasets with Image Captioning</a> <br/>
-    - <a href="https://arxiv.org/pdf/2302.10035.pdf">Large-scale Multi-Modal Pre-trained Models&#58; A Comprehensive Survey</a> <br/>
-    - <a href="https://arxiv.org/abs/2203.01311">High-Modality Multimodal Transformer&#58; Quantifying Modality & Interaction Heterogeneity for High-Modality Representation Learning</a> <br/>
-    - <a href="https://arxiv.org/abs/1908.07490">LXMERT&#58; Learning Cross-Modality Encoder Representations from Transformers</a> <br/>
-    - <a href="https://arxiv.org/pdf/2307.05222.pdf">Generative Pretraining in Multimodality</a> <br/>
-    - <a href="https://arxiv.org/abs/2102.01293">Scaling Laws for Transfer</a> <br/>
-
-- date: 2/20
-  title: >
-    Week 6 <strong>Multimodal LLMs Part2: Fine-tuning, Instructing, Aligning, Model Merging</strong> <a href="11_877_week6_synopsis.pdf">[synopsis]</a>
-  slides:
-  topics:
-    - Ensuring the effectiveness of multimodal foundation models through high-quality instruction tuning is vital. A study detailed at <a href="https://arxiv.org/pdf/2402.04333.pdf">here</a>  introduces a strategy for selecting significant data specifically suited for enhancing instruction tuning for language models. A primary challenge in this approach is determining which data are most crucial for targeted instruction tuning. How can we accurately identify and select the most impactful data for enhancing instruction tuning in multimodal foundation models? Given the complexity of diverse and multimodal information, what strategies can ensure the effectiveness of instruction tuning data for specific tasks?
-    - For model merging, mixture-of-expert-based models enable a new paradigm to utilize multiple expert models for specific tasks. <a href="https://arxiv.org/pdf/2402.05859.pdf">Here</a> shows a promising method to utilize multiple models together. When it comes to multimodal tasks, how might we design a similar system for multimodal tasks that have human-level intelligence? What methodologies could enable the integration of various multimodal models to perform complex tasks such as social interaction effectively?
-    - What is the intuition of utilizing frozen large language models as the backbone for multimodal tasks? Which types of encoders would facilitate the integration of diverse information into a format understandable by LLMs? How do these LLMs process and interpret information from different modalities?
-    - Considering the various methods available for LLM alignment, is aligning multimodal models perceived to be more challenging or easier? What factors contribute to the difficulty of multimodal alignment, and how might this be related to those previously discussed fundamental parts of multimodal machine learning like interaction and connection?
-    - How can we categorize the taxonomy of general AI alignment? Can we classify the AI alignment categories based on the goal of conducting alignment? Assuming the existence of an oracle alignment method, what behaviors would we expect from an aligned AI model? Please list some behaviors that should be exhibited by AI following successful alignment.
-    - What is the taxonomy of general AI alignment? Can we classify based on the goal of alignment? Imagine we have an oracle alignment method, what kind of behavior we expect the model to have after alignment? Please list some of the expected behavior that AI should have after alignment.
-    - What distinguishes AI alignment from AI personalization? When focusing on AI alignment and personalization, what are the key differences and considerations to keep in mind? Is personalization an easier or harder thing to conduct compared with alignment?
-  readings:
-    - <a href="https://arxiv.org/abs/2102.01293">Case Law Grounding&#58; Aligning Judgments of Humans and AI on Socially-Constructed Concepts</a> <br/>
-    - <a href="https://arxiv.org/pdf/2309.14525.pdf">Aligning AI with shared human values</a> <br/>
-    - <a href="https://arxiv.org/pdf/2310.07019.pdf">Improved Baselines with Visual Instruction Tuning</a> <br/>
-    - <a href="https://arxiv.org/pdf/2008.02275.pdf">Value Alignment for Advanced Artificial Judicial Intelligence</a> <br/>
-    - <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4252645"></a> <br/>
-    - <a href="https://arxiv.org/pdf/2310.03744.pdf">Improved Baselines with Visual Instruction Tunin</a> <br/>
-    - <a href="https://arxiv.org/pdf/2106.13884.pdf">Multimodal Few-Shot Learning with Frozen Language Models</a> <br/>
-    - <a href="https://arxiv.org/abs/2301.12597">BLIP-2&#58; Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models</a> <br/>
-    - <a href="https://arxiv.org/abs/2310.09478">MiniGPT-v2&#58; large language model as a unified interface for vision-language multi-task learning</a> <br/>
-    - <a href="https://arxiv.org/pdf/2304.14933.pdf">An Empirical Study of Multimodal Model Merging</a> <br/>
-    - <a href="https://proceedings.mlr.press/v202/wu23t/wu23t.pdf">π-Tuning&#58; Transferring Multimodal Foundation Models with Optimal Multi-task Interpolation</a> <br/>
-    - <a href="https://arxiv.org/pdf/2311.10122.pdf">Video-LLaVA&#58; Learning United Visual Representation by Alignment Before Projection</a> <br/>
-    - <a href="https://arxiv.org/pdf/2303.16200.pdf?trk=public_post_comment-text">Natural Selection&#58; Favors AIs over Humans</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/702f4db7543a7432431df588d57bc7c9-Paper-Conference.pdf">Mind the Gap&#58; Understanding the Modality Gap in Multi-modal Contrastive Representation Learning</a> <br/>
-
-- date: 2/27
-  title: >
-    Week 7 <strong>Multimodal LLMs Part3: Generative Models and LLMs</strong> <a href="11_877_week7_synopsis.pdf">[synopsis]</a>
-  slides:
-  topics:
-    - Connecting with multimodal foundation topics discussed in the previous week, what types of multimodal interactions or connections are large-scale generative models learning to capture? How to link multimodal interactions with generative AI architecture? How to combine mathematical theory related to multimodal interactions to design the next generation of generative AI architecture?
-    - With the advancement of generative AI, distinguishing between AI-generated and human-created content is becoming increasingly challenging. Besides watermarking, which has its limitations, are there other effective methods to differentiate between AI-generated and human-created content across various modalities (text, audio, video, image)? Or is it becoming virtually impossible to make this distinction?
-    - What is the taxonomy of safety issues, social impact, and ethical concerns associated with generative AI development? How should we update best practices to address these ethical concerns? Who should initiate and lead this dialogue? What steps can be taken to mitigate these ethical issues effectively? Imagine we have an oracle multimodal generative AI system that is used on a large scale. What types of data pollution would it have if most of its data were published on the Internet?
-    - When assessing the quality of multimodal outputs from generative AI systems, which dimensions should be prioritized? Can we develop metrics that allow for large-scale evaluation while mitigating potential safety and ethical risks?
-    - Diffusion models have shown remarkable performance in controllable text-to-image generation. Could you explain the intuition behind why diffusion models are effective, especially in comparison to other generative AI models like GANs/ VAEs / AR-based LLMs? Some works claim that scaling up GANs can beat diffusion models (<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Kang_Scaling_Up_GANs_for_Text-to-Image_Synthesis_CVPR_2023_paper.pdf">here</a>) and some work claims that language models are better than diffusion models for image generation (<a href="https://arxiv.org/pdf/2310.05737.pdf">here</a>). Which generative model family do you think is the most promising one for multimodal generation?
-    - For state-of-the-art video generation models like Sora, Yann Lecun mentioned in <a href="https://twitter.com/ylecun/status/1758740106955952191">here</a> that Sora does not understand the real world and its corresponding physical rules. Do you agree with this view? Can the future development of generative AI systems truly incorporate real-world knowledge, or are they limited in this aspect? Is pursuing generative AI a viable path towards achieving Artificial General Intelligence (AGI)?
-  readings:
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/43a69d143273bd8215578bde887bb552-Paper-Conference.pdf">Generating Images with Multimodal Language Models</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/dd83eada2c3c74db3c7fe1c087513756-Paper-Datasets_and_Benchmarks.pdf">Holistic Evaluation of Text-to-Image Models</a> <br/>
-    - <a href="https://openai.com/research/video-generation-models-as-world-simulators">Video generation models as world simulators</a> <br/>
-    - <a href="https://arxiv.org/pdf/2306.01953.pdf">Invisible Image Watermarks Are Provably Removable Using Generative AI</a> <br/>
-    - <a href="https://arxiv.org/pdf/2312.14125.pdf">VideoPoet&#58; A Large Language Model for Zero-Shot Video Generation</a> <br/>
-    - <a href="https://arxiv.org/pdf/2312.17172.pdf">Unified-IO 2&#58; Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/971f1e59cd956cc094da4e2f78c6ea7c-Paper-Conference.pdf">StableRep&#58; Synthetic Images from Text-to-Image Models Make Strong Visual Representation Learners</a> <br/>
-    - <a href="https://arxiv.org/html/2401.01335v1">Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/2112.10752.pdf">High-Resolution Image Synthesis with Latent Diffusion Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/2308.14752.pdf">AI Deception&#58; A Survey of Examples, Risks, and Potential Solutions</a> <br/>
-    - <a href="https://arxiv.org/pdf/2306.05949.pdf">Evaluating the Social Impact of Generative AI Systems in Systems and Society</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0160791X2300177X">Generative AI&#58; Here to stay, but for good?</a> <br/>
-    - <a href="https://www.tandfonline.com/doi/abs/10.1207/s15326985ep2704_8">Generative Learning Processes of the Brain</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/8171ac2c5544a5cb54ac0f38bf477af4-Paper.pdf">VAEM&#58; a Deep Generative Model for Heterogeneous Mixed Type Data</a> <br/>
-    - <a href="https://arxiv.org/pdf/2305.11846.pdf">Any-to-Any Generation via Composable Diffusion</a> <br/>
-    - <a href="https://arxiv.org/pdf/2203.02923.pdf">GeoDiff&#58; A Geometric Diffusion Model For Molecular rConformation Generation</a> <br/>
-
-- date: 3/5
-  title: >
-    Week 8 <strong>No classes – Spring break</strong>
+    Week 1 <strong>Foundation 1: Data, structure, information</strong> <a href="how2ai_week1_slides.pdf">[slides]</a>
   slides:
   topics:
   readings:
 
-
-- date: 3/12
+- date: 2/11
   title: >
-    Week 9 <strong>Interaction Part1: Reasoning and Large Models</strong> <a href="11_877_week9_synopsis.pdf">[synopsis]</a>
+    Week 2 <strong>Foundation 2: Common model architectures</strong>
   slides:
   topics:
-    - Currently, most reasoning models are basically limited to vision and language domains. However, in our real world, multimodal reasoning more broadly exists and has more diverse forms. Can you list a few more examples of multimodal reasoning tasks in our daily life that rely on other modalities and how symbolic or unique reasoning methods can be applied to them?
-    - Can you create a taxonomy of all potential symbolic systems that can be helpful for different types of multimodal reasoning tasks like AMR graphs, knowledge graphs and programs? What are their unique advantages and disadvantages?
-    - Based on <a href="https://openreview.net/pdf?id=GPKTIktA0k">here</a>, are there any other complex reasoning tasks besides reverse logic problems that you think the current foundation models might not handle well? How can neural symbolic models be incorporated to help with those hard cases?
-    - Besides <a href="https://arxiv.org/pdf/2402.03268.pdf">here</a>, can you imagine any other potential way to uncover the reasoning capabilities of black-box models, such as large language models and other multimodal foundation models? How can one discover specifically the cross-modal reasoning processes in such a black-box model?
-    - To what extent do we need external knowledge when performing reasoning, specifically multimodal reasoning? What type of external knowledge is likely to be needed to succeed in multimodal reasoning?
-    - What are the main advantages of reasoning-based approaches, when compared to large-scale multimodal models discussed in the previous lectures? What are the potential issues with reasoning? Can we perform reasoning on very large datasets? Why do pre-training methods eventually learn reasoning processes similar to humans? Or will we still need human and domain knowledge to some extent?
-    - Are there unique technical challenges that arise when we consider utilizing neural symbolic methods on multimodal data as performed on multimodal data? What are these unique challenges? How can we start studying these challenges in future research?
   readings:
-    - <a href="https://arxiv.org/pdf/2305.10601.pdf">Tree of Thoughts&#58; Deliberate Problem Solving with Large Language Models</a><br/>
-    - <a href="https://arxiv.org/pdf/2303.08128.pdf">ViperGPT&#58; Visual Inference via Python Execution for Reasoning</a><br/>
-    - <a href="https://arxiv.org/pdf/2402.03268.pdf">Understanding the Reasoning Ability of Language Models From the Perspective of Reasoning Paths Aggregation</a><br/>
-    - <a href="https://arxiv.org/pdf/2205.09712.pdf">Selection-Inference&#58; Exploiting Large Language Models for Interpretable Logical Reasoning</a><br/>
-    - <a href="https://arxiv.org/abs/2210.15037">Generalization Differences between End-to-End and Neuro-Symbolic Vision-Language Reasoning Systems</a><br/>
-    - <a href="https://arxiv.org/pdf/2210.00312.pdf">Multimodal Analogical Reasoning Over Knowledge Graphs</a><br/>
-    - <a href="https://arxiv.org/pdf/1904.12584.pdf">The Neuro-Symbolic Concept Learner&#58; Interpreting Scenes, Words, and Sentences From Natural Supervision</a><br/>
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Wu_Neural_Scene_De-Rendering_CVPR_2017_paper.pdf">Neural Scene De-rendering</a><br/>
-    - <a href="https://link.springer.com/article/10.1007/s10462-023-10448-w">Neurosymbolic AI&#58; the 3rd wave</a><br/>
-    - <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_VQA-GNN_Reasoning_with_Multimodal_Knowledge_via_Graph_Neural_Networks_for_ICCV_2023_paper.pdf">VQA-GNN&#58; Reasoning with Multimodal Knowledge via Graph Neural Networks for Visual Question Answering</a><br/>
-    - <a href="https://arxiv.org/pdf/2304.07633.pdf">Detecting Out-of-Context Multimodal Misinformation with interpretable neural-symbolic model</a><br/>
-    - <a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Andreas_Neural_Module_Networks_CVPR_2016_paper.pdf">Neural Module Networks</a><br/>
-    - <a href="https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/894">Logical Versus Analogical or Symbolic Versus Connectionist or Neat Versus Scruffy</a><br/>
 
-- date: 3/19
+- date: 2/18
   title: >
-    Week 10 <strong>Interaction Part2&#58; Embodiment and Planning</strong> <a href="11_877_week10_synopsis.pdf">[synopsis]</a>
+    Week 3 <strong>Foundation 3: Learning and generalization</strong>
   slides:
   topics:
-    - For what sort of embodied tasks might code be a good representation for? For what tasks would it be a poor representation for?
-    - When generating embodied plans from natural language, several dimensions of difficulty are the ambiguity in the language, the difficulty of grounding language in the environment, and the difficulty of carrying out the plan in the environment. Consider one or two of the papers from this week – which of these dimensions (or others) do they mainly address?
-    - When building an embodied AI, one key challenge is to define an easy and clear action space to ground. Given any particular task like cooking and housekeeping, how to design an appropriate action space that can be easily and accurately grounded? Provide a task and its corresponding designed action space for grounding.
-    - Robotics requires more broad multisensory machine learning techniques besides well-studied vision/language multimodal techniques. What are the potential sensory modalities for embodied agent tasks that are not well studied now? What specific embodied tasks require the information from sensory modality to be completed?
-    - Based on the release of Figure01 (<a href="https://www.figure.ai/">here</a>), what are the three potential main technical challenges for the next steps of embodied AI and why? What are three potential applications like automatic housekeeping that are still not achievable for robotics now?
-    - For embodied AI training, embodied data is widely considered a serious bottleneck. There are a lot of data synthesis works based on virtual or physical environments like <a href="https://arxiv.org/pdf/2403.08629.pdf">here</a>. What are the key challenges for embodied tasks data synthesis and how to make sure that synthesized data are high-quality?
-    - What challenges do social settings add beyond standard embodied/robotics tasks?
   readings:
-    - <a href="https://voyager.minedojo.org/">Voyager&#58; An Open-Ended Embodied Agent with Large Language Models</a> <br/>
-    - <a href="https://arxiv.org/abs/2310.13724">Habitat 3.0&#58; A Co-Habitat for Humans, Avatars and Robots</a> <br/>
-    - <a href="https://arxiv.org/abs/2209.11302">ProgPrompt&#58; Generating Situated Robot Task Plans using Large Language Models</a> <br/>
-    - <a href="https://code-as-policies.github.io/">Code as Policies&#58; Language Model Programs for Embodied Control</a> <br/>
-    - <a href="https://eureka-research.github.io/">Eureka&#58; Human-Level Reward Design via Coding Large Language Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/2312.08566.pdf">Learning Adaptive Planning Representations with Natural Language Guidance</a> <br/>
-    - <a href="https://arxiv.org/abs/2110.01517">Skill Induction and Planning with Latent Language</a> <br/>
-    - <a href="https://arxiv.org/pdf/2307.02485.pdf">Buidling Cooperative Embodied Agents Modularly with Large Language Models</a> <br/>
-    - <a href="https://www.science.org/doi/10.1126/science.ade9097">Human-level play in the game of Diplomacy by combining language models with strategic reasoning</a> <br/>
-    - <a href="https://arxiv.org/pdf/2309.09969.pdf">Prompt a Robot to Walk with Large Language Models</a> <br/>
-    - <a href="https://auto-rt.github.io/static/pdf/AutoRT.pdf">AutoRT&#58; Embodied Foundation Models for Large Scale Orchestration of Robotic Agents</a> <br/>
-    - <a href="https://arxiv.org/pdf/2305.02412.pdf">Plan, Eliminate, and Track — Language Models are Good Teachers for Embodied Agents.</a> <br/>
-    - <a href="https://arxiv.org/pdf/2312.05230.pdf">Language Models, Agent Models, and World Models&#58; The LAW for Machine Reasoning and Planning</a> <br/>
 
-- date: 3/26
+- date: 2/25
   title: >
-    Week 11 <strong>Interaction Part3: Interaction with People</strong> <a href="11_877_week11_synopsis.pdf">[synopsis]</a>
+    Week 4 <strong>Multimodal 1: Connections and alignment</strong>
   slides:
   topics:
-    - Humans can provide many different types of feedback to help models accomplish challenging tasks in NLP, robotics, and multimodal tasks (e.g., ranking, scoring, and instructing). What are other types of feedback that can be useful for model training? Can we create a taxonomy of feedback forms, and describe each of their pros and cons? When should we use each type of feedback?
-    - In NLP, there’s been a trend of replacing human annotations/feedback with large language models. What are some limitations of this approach? What tasks that are currently done by humans cannot be replaced by large foundation models? What abilities might models need to have to be able to fully replace human annotators?
-    - One key aspect of computational pragmatics is how context makes language have meaning beyond what’s literally said. Give some examples of settings that involve multimodal context where the multimodality changes or enriches the literal meaning of the language.
-    - Brainstorm some settings where it would be useful for models to adapt to the people they are interacting with. This adaptation could involve the peoples’ language, preferences, and backgrounds. Are these settings within reach of current models? What techniques do you think will be useful to enable adaptation? Are there also societal concerns if these models understand too much of their users?
-    - Pick a task that people carry out in pairs or teams, that involves some social or grounded interaction between the people (e.g., pair programming, advising a graduate student, assembling a piece of furniture). How close or far do you think our current AI approaches are from being able to collaborate with the people carrying out this task? What is a research agenda towards enabling human-AI collaboration?
   readings:
-    - <a href="https://arxiv.org/pdf/2211.08371.pdf">Pragmatics in Language Grounding&#58; Phenomena, Tasks, and Modeling Approaches</a> <br/>
-    - <a href="https://arxiv.org/abs/2305.00955">Bridging the Gap&#58; A Survey on Integrating (Human) Feedback for Natural Language Generation</a> <br/>
-    - <a href="https://arxiv.org/abs/2210.05815">Underspecification in Scene Description-to-Depiction Task</a> <br/>
-    - <a href="https://arxiv.org/abs/2310.17140">Symbolic Planning and Code Generation for Grounded Dialogue</a> <br/>
-    - <a href="https://arxiv.org/abs/1911.09896">Continual adaptation for efficient machine communication</a> <br/>
-    - <a href="https://arxiv.org/pdf/2310.15638.pdf">CoAnnotating&#58; Uncertainty-Guided Work Allocation between Human and Large Language Models for Data Annotation</a> <br/>
-    - <a href="https://arxiv.org/abs/2211.08416">Robot Learning on the Job&#58; Human-in-the-Loop Autonomy and Learning During Deployment</a> <br/>
-    - <a href="https://aclanthology.org/P19-1184/">The PhotoBook Dataset&#58; Building Common Ground through Visually-Grounded Dialogue</a> <br/>
-    - <a href="https://arxiv.org/abs/2311.12131">Human Learning by Model Feedback&#58; The Dynamics of Iterative Prompting with Midjourney</a> <br/>
-    - <a href="https://arxiv.org/pdf/2106.14321.pdf">Draw Me a Flower&#58; Processing and Grounding Abstraction in Natural Language</a> <br/>
-    - <a href="https://aclanthology.org/2021.tacl-1.77/">Continual Learning for Grounded Instruction Generation by Observing Human Following Behavior</a> <br/>
-    - <a href="https://arxiv.org/abs/2212.09710">Continual Learning for Instruction Following from Realtime Feedback</a> <br/>
-    - <a href="https://arxiv.org/pdf/2303.01502.pdf">Computational Language Acquisition with Theory of Mind</a> <br/>
-    - <a href="https://arxiv.org/abs/2005.07064">Multi-agent communication meets natural language&#58; synergies between functional and structural language learning</a> <br/>
-    - <a href="https://aclanthology.org/2020.emnlp-main.353/">Refer, Reuse, Reduce&#58; Generating Subsequent References in Visual and Conversational Contexts</a> <br/>
-    - <a href="https://aclanthology.org/2023.findings-acl.258/">Speaking the Language of Your Listener&#58; Audience-Aware Adaptation via Plug-and-Play Theory of Mind</a> <br/>
-    - <a href="https://arxiv.org/pdf/2212.09750.pdf">Human-in-the-loop Abstractive Dialogue Summarization</a> <br/>
-    - <a href="https://sites.google.com/view/pragmatic-compression">Pragmatic Image Compression for Human-in-the-Loop Decision-Making</a> <br/>
-    - <a href="https://arxiv.org/abs/2212.08279">Werewolf Among Us&#58; A Multimodal Dataset for Modeling Persuasion Behaviors in Social Deduction Games</a> <br/>
-    - <a href="https://arxiv.org/abs/2005.04790">The Hateful Memes Challenge&#58; Detecting Hate Speech in Multimodal Memes</a> <br/>
-    - <a href="https://arxiv.org/abs/2310.11667">SOTOPIA&#58; Interactive Evaluation for Social Intelligence in Language Agents</a> <br/>
-    - <a href="https://arxiv.org/abs/2403.12943">Vid2Robot&#58; End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers</a> <br/>
-    - <a href="https://ieeexplore.ieee.org/abstract/document/6419714">The Future of Human-in-the-Loop Cyber-Physical Systems</a> <br/>
 
-- date: 4/2
+- date: 3/4
   title: >
-    Week 12 <strong>Ethics and Safety</strong> <a href="11_877_week12_synopsis.pdf">[synopsis]</a>
+    Week 5 <strong>Multimodal 2: Interactions and fusion</strong>
   slides:
   topics:
-    - What are some ways to assess the trustworthiness of LLMs? How does the problem become harder when these LLMs are multimodal in the input and output? How can our earlier discussions on multimodal interactions, reasoning, etc give new insights on improving the trust and safety of multimodal LLMs?
-    - When are multimodal models more robust to adversarial attacks? When are they more susceptible? Why do these both occur and how can it inform our design of robust multimodal systems?
-    - What are the qualities we should consider when evaluating outputs from multimodal generative AI? What do you think is the best practice to evaluate these qualities? Can we efficiently evaluate these qualities, at scale?
-    - What are the real-world ethical issues regarding multimodal models? How can we build a taxonomy of the main ethical concerns, so that we can systematically evaluate and combat them? What are some ethical concerns that you are worried about, but not already popularized in mainstream media?
-    - How can we update our best practices to help address these ethical concerns? Who is better placed to start this dialogue? The academic researcher, industry, policymakers, or more? How can we make significant changes in this direction of highlighting and mitigating ethical issues?
-    - Facing a foundation model system, what types of attack can you do to make the system not work or perform worse? What is the taxonomy of the attack that a user can make? What types of safety issue are identified based on different types of attacks?
-    - When discussing the robustness of one model, what can an ideal robust multimodal model do? Compared to multimodal models and unimodal models, which kinds of models do you think that is more robust? Briefly describe the reason why you think one type is more robust than the other when facing a particular problem.
-    - Jailbreaking for foundation models is a commonly discussed topic. What is the root cause of the model to be able to be jailbroken? What are the potential ways to avoid such attacks and build guardrails?
   readings:
-    - <a href="https://arxiv.org/abs/2306.11698">DecodingTrust&#58; A Comprehensive Assessment of Trustworthiness in GPT Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/2304.04385.pdf">On Robustness in Multimodal Learning</a> <br/>
-    - <a href="https://arxiv.org/pdf/2309.13788.pdf">Can LLM-generated misinformation be detected?</a> <br/>
-    - <a href="https://arxiv.org/pdf/2310.03693.pdf">Fine-tuning aligned language models compromises safety, even when users do not intend to!</a> <br/>
-    - <a href="https://arxiv.org/pdf/2402.02309.pdf">Jailbreaking Attack against Multimodal Large Language Model</a> <br/>
-    - <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Are_Multimodal_Transformers_Robust_to_Missing_Modality_CVPR_2022_paper.pdf">Are Multimodal Transformers Robust to Missing Modality?</a> <br/>
-    - <a href="https://arxiv.org/pdf/2206.09391.pdf">Towards Adversarial Attack on Vision-Language Pre-training Models</a> <br/>
-    - <a href="https://www.nature.com/articles/s41746-022-00712-8">Multimodal machine learning in precision health&#58; A scoping review</a> <br/>
-    - <a href="https://arxiv.org/pdf/2403.13031.pdf">RigorLLM&#58; Resilient Guardrails for Large Language Models against Undesired Content</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/ea0b28cbbd0cbc45ec4ac38e92da9cb2-Paper-Conference.pdf">DiffAttack&#58; Evasion Attacks Against Diffusion-Based Adversarial Purification</a> <br/>
-    - <a href="https://arxiv.org/pdf/2302.04023.pdf">A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity</a> <br/>
-    - <a href="https://arxiv.org/abs/2310.17884">Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory</a> <br/>
-    - <a href="https://dl.acm.org/doi/abs/10.1145/3531146.3534642">What Does it Mean for a Language Model to Preserve Privacy?</a> <br/>
-    - <a href="https://arxiv.org/abs/2311.06237">Summon a Demon and Bind it&#58; A Grounded Theory of LLM Red Teaming in the Wild</a> <br/>
 
-- date: 4/9
+- date: 3/11
   title: >
-    Week 13 <strong>Efficiency and Privacy</strong> <a href="11_877_week13_synopsis.pdf">[synopsis]</a>
+    Week 6 <strong>Multimodal 3: Cross-modal transfer</strong>
   slides:
   topics:
-    - Different papers have different definitions of efficiency, including memory, time, space etc. Are there other notions of efficiency that you think current work is missing out on, especially as we build multimodal systems for the real world? How can we make progress on these new notions?
-    - How can our study of multimodal connections/interactions help us design more efficient models? How should we balance careful and efficient model design from the start, versus training large models and compressing them as a post-hoc step?
-    - How can we scale multimodal models to extremely long sequence lengths, such as over years of human experience? What new capabilities will this enable? How can we start creating benchmarks to make progress toward these capabilities?
-    - There has been a lot of work on making language models and vision models more efficient - what ideas here can be translated to other modalities and other multimodal problems? What new domain expertise will we need to build efficient models for these other settings?
-    - Most works in improving efficiency fixes the modalities and makes the models more efficiency. Are there potential ideas on changing the modalities themselves so that they can be more efficiently handled (e.g., going from video to images or wireless sensors?) 
-    - How can we formalize the balance between information, fidelity, efficiency, and privacy of different modalities, and how can we choose which ones to use for a given problem?
-  readings:
-    - <a href="https://arxiv.org/pdf/2403.14520.pdf">Cobra&#58; Extending Mamba to Multi-Modal Large Language Model for Efficient Inference</a> <br/>
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445138">Vid2Doppler&#58; Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition</a> <br/>
-    - <a href="https://arxiv.org/pdf/2205.14135.pdf">FlashAttention&#58; Fast and Memory-Efficient Exact Attention with IO-Awareness</a> <br/>
-    - <a href="https://arxiv.org/pdf/2307.08691.pdf?trk=public_post_comment-text">FlashAttention-2&#58; Faster Attention with Better Parallelism and Work Partitioning</a> <br/>
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/3550284">SAMoSA&#58; Sensing Activities with Motion and Subsampled Audio</a> <br/>
-    - <a href="https://proceedings.mlr.press/v202/xiao23c/xiao23c.pdf">SmoothQuant&#58; Accurate and Efficient Post-Training Quantization for Large Language Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/1904.10509.pdf">Generating Long Sequences with Sparse Transformers</a> <br/>
-    - <a href="https://www.biorxiv.org/content/10.1101/2023.05.24.542179v1.full.pdf">Efficient and accurate prediction of protein structure using RoseTTAFold2</a> <br/>
-    - <a href="https://arxiv.org/pdf/2211.05102.pdf">Efficiently Scaling Transformer Inference</a> <br/>
-    - <a href="https://ojs.aaai.org/index.php/AAAI/article/view/6307">Privacy Enhanced Multimodal Neural Representations for Emotion Recognition</a> <br/>
-    - <a href="https://arxiv.org/pdf/2305.14314.pdf">QLORA&#58; Efficient Finetuning of Quantized LLMs</a> <br/>
-    - <a href="https://arxiv.org/pdf/2312.00752.pdf?trk=public_post_comment-text">Mamba&#58; Linear-Time Sequence Modeling with Selective State Spaces</a> <br/>
-    - <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/5e84e4413268b713f0d4a1b23a9dae57-Paper-Conference.pdf">Cheap and Quick&#58; Efficient Vision-Language Instruction Tuning for Large Language Models</a> <br/>
-    - <a href="https://arxiv.org/pdf/2211.01095.pdf">Dpm-solver++&#58; Fast solver for guided sampling of diffusion probabilistic models</a> <br/>
-
-- date: 4/16
-  title: >
-    Week 14 <strong>Open Discussion</strong> <a href="11_877_week14_synopsis.pdf">[synopsis]</a>
-  topics:
-
   readings:
 
-- date: 4/23
+- date: 3/18
   title: >
-    Week 15 <strong>Project presentations</strong>
+    Week 7 <strong>Large models 1: Data, pre-training, scaling</strong>
+  slides:
   topics:
+  readings:
 
+- date: 3/25
+  title: >
+    Week 8 <strong>No class, spring break</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 4/1
+  title: >
+    Week 9 <strong>Large models 2: Fine-tuning, instructing, aligning</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 4/8
+  title: >
+    Week 10 <strong>No class, member's week</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 4/15
+  title: >
+    Week 11 <strong>Large models 3: Large multimodal models</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 4/22
+  title: >
+    Week 12 <strong>Large models 4: Modern generative models</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 4/29
+  title: >
+    Week 13 <strong>Large models 5: ML on graphs</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 5/6
+  title: >
+    Week 14 <strong>Large models 6: Embodiment, interaction, agents</strong>
+  slides:
+  topics:
   readings:
