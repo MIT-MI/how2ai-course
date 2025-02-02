@@ -3,48 +3,67 @@
     Week 1 <strong>Foundation 1: Data, structure, information</strong>
   slides:
   topics:
+    - Course syllabus and requirements <br/>
+    - Introduction to AI and AI research
   readings:
 
 - date: 2/11
   title: >
-    Week 2 <strong>Foundation 2: Common model architectures</strong>
+    Week 2 <strong>Foundation 1: Data, structure, information</strong>
   slides:
   topics:
+    - Common data modalities <br/>
+    - Data collection strategies <br/>
+    - Structure and invariances
   readings:
 
 - date: 2/18
   title: >
-    Week 3 <strong>Foundation 3: Learning and generalization</strong>
+    Week 3 <strong>Foundation 2: Common model architectures</strong>
   slides:
   topics:
+    - Temporal sequence models <br/>
+    - Spatial convolution models <br/>
+    - Models for sets and graphs
   readings:
 
 - date: 2/25
   title: >
-    Week 4 <strong>Multimodal 1: Connections and alignment</strong>
+    Week 4 <strong>Foundation 3: Learning and generalization</strong>
   slides:
   topics:
+    - Training objectives <br/>
+    - Overfitting and generalization <br/>
+    - Scaling laws
   readings:
 
 - date: 3/4
   title: >
-    Week 5 <strong>Multimodal 2: Interactions and fusion</strong>
+    Week 5 <strong>Multimodal 1: Connections and alignment</strong>
   slides:
   topics:
+    - Heterogeneity, connections, and interactions <br/>
+    - Multimodal technical challenges <br/>
+    - Alignment and transformers
   readings:
 
 - date: 3/11
   title: >
-    Week 6 <strong>Multimodal 3: Cross-modal transfer</strong>
+    Week 6 <strong>Multimodal 2: Interactions and fusion</strong>
   slides:
   topics:
+    - Cross-modal interactions <br/>
+    - Multimodal fusion
   readings:
 
 - date: 3/18
   title: >
-    Week 7 <strong>Large models 1: Data, pre-training, scaling</strong>
+    Week 7 <strong>Multimodal 3: Cross-modal transfer</strong>
   slides:
   topics:
+    - Cross-modal learning via fusion <br/>
+    - Cross-modal learning via alignment <br/>
+    - Cross-modal learning via translation
   readings:
 
 - date: 3/25
@@ -56,9 +75,12 @@
 
 - date: 4/1
   title: >
-    Week 9 <strong>Large models 2: Fine-tuning, instructing, aligning</strong>
+    Week 9 <strong>Large models 1: Large Foundation Models</strong>
   slides:
   topics:
+   - Pre-training data <br/>
+   - Self-supervised learning <br/>
+   - Fine-tuning, instructing, alignment
   readings:
 
 - date: 4/8
@@ -70,28 +92,48 @@
 
 - date: 4/15
   title: >
-    Week 11 <strong>Large models 3: Large multimodal models</strong>
+    Week 11 <strong>Large models 2: Large multimodal models</strong>
   slides:
   topics:
+    - Multimodal pre-training <br/>
+    - Adapting large language models to multimodal <br/>
+    - Multimodal LLMs with generation
   readings:
 
 - date: 4/22
   title: >
-    Week 12 <strong>Large models 4: Modern generative models</strong>
+    Week 12 <strong>Large models 3: Modern generative models</strong>
   slides:
   topics:
+    - Diffusion models <br/>
+    - Controllable generation
   readings:
 
 - date: 4/29
   title: >
-    Week 13 <strong>Large models 5: ML on graphs</strong>
+    Week 13 <strong>Interaction 1: Interactive agents and reasoning</strong>
   slides:
   topics:
+    - WebAgent platforms <br/>
+    - Multi-step reasoning
   readings:
 
 - date: 5/6
   title: >
-    Week 14 <strong>Large models 6: Interactive agents</strong>
+    Week 14 <strong>Interaction 2: Embodied AI</strong>
   slides:
   topics:
+    - Reinforcement learning <br/>
+    - Tangible and embodied systems <br/>
+    - Real-world considerations
+  readings:
+
+- date: 5/3
+  title: >
+    Week 15 <strong>Interaction 3: Human AI interaction</strong>
+  slides:
+  topics:
+    - Interaction mediums <br/>
+    - Human in the loop learning <br/>
+    - Safety and reliability
   readings:
