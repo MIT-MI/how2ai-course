@@ -7,6 +7,15 @@
     - Introduction to AI and AI research
   readings:
 
+- date: 2/6
+  title: >
+    Week 1 <strong>Introduction to AI Research</strong> <a href="lec1-introduction.pdf">[slides]</a>
+  slides:
+  topics:
+    - Introduction to AI and AI research <br/>
+    - Generating ideas, reading and writing papers, AI experimentation
+  readings:
+
 - date: 2/11
   title: >
     Week 2 <strong>Foundation 1: Data, structure, information</strong>
