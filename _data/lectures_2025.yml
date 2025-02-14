@@ -18,7 +18,7 @@
 
 - date: 2/11
   title: >
-    Week 2 <strong>Foundation 1: Data, structure, information</strong> <a href="Debugging Tips.pdf">[slides]</a>
+    Week 2 <strong>Foundation 1: Data, structure, information</strong> <a href="lec2 - data.pdf">[slides]</a>
   slides:
   topics:
     - Common data modalities <br/>
@@ -28,7 +28,7 @@
 
 - date: 2/14
   title: >
-    Week 2 <strong>PyTorch & Huggingface Tutorial</strong> <a href="lec2 - data.pdf">[slides]</a>
+    Week 2 <strong>PyTorch & Huggingface Tutorial</strong> <a href="Debugging Tips.pdf">[slides]</a>
   slides:
   topics:
     - Getting started with PyTorch <br/>
