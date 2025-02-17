@@ -23,24 +23,39 @@
   topics:
     - Common data modalities <br/>
     - Data collection strategies <br/>
-    - Structure and invariances
+    - Training objectives and generalization
   readings:
 
 - date: 2/14
   title: >
-    Week 2 <strong>PyTorch & Huggingface Tutorial</strong> <a href="Debugging Tips.pdf">[slides]</a>
+    Week 2 <strong>Foundation 2: Practical AI tools</strong> <a href="Debugging Tips.pdf">[slides]</a>
   slides:
   topics:
     - Getting started with PyTorch <br/>
-    - How to use Huggingface packages <br/>
-    - How to debug your machine learning models
+    - Huggingface packages <br/>
+    - Debugging machine learning models
   readings:
 
 - date: 2/18
   title: >
-    Week 3 <strong>Foundation 2: Common model architectures</strong>
+    Week 3 <strong>No class, shifted President's day</strong>
   slides:
   topics:
+  readings:
+
+- date: 2/20
+  title: >
+    Week 3 <strong>Project proposal presentations</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 2/25
+  title: >
+    Week 4 <strong>Foundation 3: Common model architectures</strong>
+  slides:
+  topics:
+    - Structure and invariances <br/>
     - Temporal sequence models <br/>
     - Spatial convolution models <br/>
     - Models for sets and graphs
@@ -48,12 +63,9 @@
 
 - date: 2/25
   title: >
-    Week 4 <strong>Foundation 3: Learning and generalization</strong>
+    Week 4 <strong>Discussion 1</strong>
   slides:
   topics:
-    - Training objectives <br/>
-    - Overfitting and generalization <br/>
-    - Scaling laws
   readings:
 
 - date: 3/4
@@ -66,6 +78,13 @@
     - Alignment and transformers
   readings:
 
+- date: 3/6
+  title: >
+    Week 5 <strong>Discussion 2</strong>
+  slides:
+  topics:
+  readings:
+
 - date: 3/11
   title: >
     Week 6 <strong>Multimodal 2: Interactions and fusion</strong>
@@ -73,6 +92,13 @@
   topics:
     - Cross-modal interactions <br/>
     - Multimodal fusion
+  readings:
+
+- date: 3/13
+  title: >
+    Week 6 <strong>Discussion 3</strong>
+  slides:
+  topics:
   readings:
 
 - date: 3/18
@@ -83,6 +109,13 @@
     - Cross-modal learning via fusion <br/>
     - Cross-modal learning via alignment <br/>
     - Cross-modal learning via translation
+  readings:
+
+- date: 3/20
+  title: >
+    Week 7 <strong>Discussion 4</strong>
+  slides:
+  topics:
   readings:
 
 - date: 3/25
@@ -102,6 +135,13 @@
    - Fine-tuning, instructing, alignment
   readings:
 
+- date: 4/3
+  title: >
+    Week 9 <strong>Project midterm presentations</strong>
+  slides:
+  topics:
+  readings:
+
 - date: 4/8
   title: >
     Week 10 <strong>No class, member's week</strong>
@@ -119,6 +159,13 @@
     - Multimodal LLMs with generation
   readings:
 
+- date: 4/17
+  title: >
+    Week 11 <strong>Discussion 5</strong>
+  slides:
+  topics:
+  readings:
+
 - date: 4/22
   title: >
     Week 12 <strong>Large models 3: Modern generative models</strong>
@@ -128,6 +175,13 @@
     - Controllable generation
   readings:
 
+- date: 4/24
+  title: >
+    Week 12 <strong>Discussion 6</strong>
+  slides:
+  topics:
+  readings:
+
 - date: 4/29
   title: >
     Week 13 <strong>Interaction 1: Interactive agents and reasoning</strong>
@@ -135,6 +189,13 @@
   topics:
     - WebAgent platforms <br/>
     - Multi-step reasoning
+  readings:
+
+- date: 5/1
+  title: >
+    Week 13 <strong>Discussion 7</strong>
+  slides:
+  topics:
   readings:
 
 - date: 5/6
@@ -147,7 +208,14 @@
     - Real-world considerations
   readings:
 
-- date: 5/3
+- date: 5/8
+  title: >
+    Week 14 <strong>Project final presentations</strong>
+  slides:
+  topics:
+  readings:
+
+- date: 5/13
   title: >
     Week 15 <strong>Interaction 3: Human AI interaction</strong>
   slides:
