@@ -63,7 +63,7 @@
 
 - date: 2/25
   title: >
-    Week 4 <strong>Discussion 1</strong>
+    Week 4 <strong>Discussion 1: Learning and generalization</strong>
   slides:
   topics:
   readings:
@@ -80,7 +80,7 @@
 
 - date: 3/6
   title: >
-    Week 5 <strong>Discussion 2</strong>
+    Week 5 <strong>Discussion 2: Specialized vs general-purpose models</strong>
   slides:
   topics:
   readings:
@@ -96,7 +96,7 @@
 
 - date: 3/13
   title: >
-    Week 6 <strong>Discussion 3</strong>
+    Week 6 <strong>Discussion 3: Multimodal interactions</strong>
   slides:
   topics:
   readings:
@@ -113,7 +113,7 @@
 
 - date: 3/20
   title: >
-    Week 7 <strong>Discussion 4</strong>
+    Week 7 <strong>Discussion 4: Cross-modal learning</strong>
   slides:
   topics:
   readings:
@@ -161,7 +161,7 @@
 
 - date: 4/17
   title: >
-    Week 11 <strong>Discussion 5</strong>
+    Week 11 <strong>Discussion 5: Large language models</strong>
   slides:
   topics:
   readings:
@@ -177,7 +177,7 @@
 
 - date: 4/24
   title: >
-    Week 12 <strong>Discussion 6</strong>
+    Week 12 <strong>Discussion 6: Large multimodal models</strong>
   slides:
   topics:
   readings:
@@ -193,7 +193,7 @@
 
 - date: 5/1
   title: >
-    Week 13 <strong>Discussion 7</strong>
+    Week 13 <strong>Discussion 7: Generative AI</strong>
   slides:
   topics:
   readings:
