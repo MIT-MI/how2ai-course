@@ -66,6 +66,11 @@
     - Models for sets and graphs
   readings:
     - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
+    - <a href="https://arxiv.org/abs/2010.11929">An Image is Worth 16x16 Words&#58; Transformers for Image Recognition at Scale</a> <br/>
+    - <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a> <br/>
+    - <a href="https://arxiv.org/abs/1409.0473">Neural Machine Translation by Jointly Learning to Align and Translate</a> <br/>
+    - <a href="https://arxiv.org/abs/1703.06114">Deep Sets</a> <br/>
+    - <a href="https://arxiv.org/abs/1710.10903">Graph Attention Networks</a> <br/>
 
 - date: 2/25
   title: >
@@ -73,6 +78,13 @@
   slides:
   topics:
   readings:
+    - <a href="https://arxiv.org/pdf/2410.09649">Learning the Bitter Lesson</a> <br/>
+    - <a href="https://arxiv.org/pdf/2303.06173">Unifying Grokking and Double Descent</a> <br/>
+    - <a href="https://arxiv.org/pdf/2209.01610">Generalization in Neural Networks</a> <br/>
+    - <a href="https://arxiv.org/pdf/2306.11644">Textbooks are all you Need</a> <br/>
+    - <a href="https://arxiv.org/pdf/2207.07528">A Conceptual Pipeline for Machine Learning</a> <br/>
+    - <a href="https://www.argmin.net/p/overfitting-to-theories-of-overfitting">Blog post</a> <br/>
+    - <a href="https://www.argmin.net/p/machine-learning-101">Blog post</a> <br/>
 
 - date: 3/4
   title: >
