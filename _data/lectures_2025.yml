@@ -42,6 +42,9 @@
     - Huggingface packages <br/>
     - Debugging machine learning models
   readings:
+  - <a href="https://karpathy.github.io/2019/04/25/recipe/">A Recipe for Training Neural Networks</a> <br/>
+  - <a href="https://colab.research.google.com/drive/1EDsjYRrAiujUew0GRJ_hyVoNMsSDnlnx?usp=sharing">Fine-tuning a Code LLM on Custom Code on a single GPU</a> <br/>
+  - <a href="https://colab.research.google.com/drive/1SoTu6gvYcLNDqPwNPTWmsSYF-l-UfHPx?usp=sharing">MAS.S60 Pytorch Introduction</a> <br/>
 
 - date: 2/18
   title: >
