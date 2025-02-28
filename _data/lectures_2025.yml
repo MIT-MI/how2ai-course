@@ -18,6 +18,9 @@
     - Introduction to AI and AI research <br/>
     - Generating ideas, reading and writing papers, AI experimentation
   readings:
+  - '<a href="https://arxiv.org/abs/2110.07058">Ego4D: Around the World in 3,000 Hours of Egocentric Video</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2306.16934">DreamDiffusion: Generating High-Quality Images from Brain EEG Signals</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2310.02050">Tuning Large language model for End-to-end Speech Translation</a> <br/>'
 
 - date: 2/11
   title: >
