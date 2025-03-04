@@ -94,7 +94,7 @@
 
 - date: 3/4
   title: >
-    Week 5 <strong>Multimodal 1: Connections and alignment</strong>
+    Week 5 <strong>Multimodal 1: Connections and alignment</strong> <a href="lec4 - multimodal.pdf">[slides]</a>
   slides:
   topics:
     - Heterogeneity, connections, and interactions <br/>
@@ -123,7 +123,7 @@
 
 - date: 3/11
   title: >
-    Week 6 <strong>Multimodal 2: Interactions and fusion</strong>
+    Week 6 <strong>Multimodal 2: Interactions and fusion</strong> <a href="lec5 - fusion.pdf">[slides]</a>
   slides:
   topics:
     - Cross-modal interactions <br/>
@@ -143,7 +143,7 @@
 
 - date: 3/18
   title: >
-    Week 7 <strong>Multimodal 3: Cross-modal transfer</strong>
+    Week 7 <strong>Multimodal 3: Cross-modal transfer</strong> <a href="lec6 - crossmodal.pdf">[slides]</a>
   slides:
   topics:
     - Cross-modal learning via fusion <br/>
