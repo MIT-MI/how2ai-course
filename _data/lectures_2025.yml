@@ -157,6 +157,9 @@
     - Cross-modal learning via alignment <br/>
     - Cross-modal learning via translation
   readings:
+    - '<a href="https://arxiv.org/abs/2303.00915v3">LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2309.11499">DreamLLM: Synergistic Multimodal Comprehension and Creation</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2303.03378">PaLM-E: An Embodied Multimodal Language Model</a> <br/>'
 
 - date: 3/20
   title: >
@@ -164,6 +167,9 @@
   slides:
   topics:
   readings:
+  - '<a href="https://arxiv.org/abs/2306.14824">Kosmos-2: Grounding Multimodal Large Language Models to the World</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2405.09818">Chameleon: Mixed-modal early-fusion foundation models</a> <br/>'
+  - '<a href="https://link.springer.com/chapter/10.1007/978-3-031-73397-0_18">MM1: Methods, Analysis and Insights from Multimodal LLM Pre-training</a><br/>'
 
 - date: 3/25
   title: >
