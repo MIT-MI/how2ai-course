@@ -18,9 +18,6 @@
     - Introduction to AI and AI research <br/>
     - Generating ideas, reading and writing papers, AI experimentation
   readings:
-  - '<a href="https://arxiv.org/abs/2110.07058">Ego4D: Around the World in 3,000 Hours of Egocentric Video</a> <br/>'
-  - '<a href="https://arxiv.org/abs/2306.16934">DreamDiffusion: Generating High-Quality Images from Brain EEG Signals</a> <br/>'
-  - '<a href="https://arxiv.org/abs/2310.02050">Tuning Large language model for End-to-end Speech Translation</a> <br/>'
 
 - date: 2/11
   title: >
@@ -136,7 +133,7 @@
 
 - date: 3/13
   title: >
-    Week 6 <strong>Discussion 3: Multimodal interactions</strong>
+    Week 6 <strong>Discussion 3: Multimodal alignment</strong>
   slides:
   topics:
   readings:
@@ -157,20 +154,24 @@
     - Cross-modal learning via alignment <br/>
     - Cross-modal learning via translation
   readings:
-    - '<a href="https://arxiv.org/abs/2303.00915v3">LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2309.11499">DreamLLM: Synergistic Multimodal Comprehension and Creation</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2303.03378">PaLM-E: An Embodied Multimodal Language Model</a> <br/>'
+    - <a href="https://arxiv.org/abs/2303.00915v3">LLaVA-Med&#58; Training a Large Language-and-Vision Assistant for Biomedicine in One Day</a> <br/>
+    - <a href="https://arxiv.org/abs/2309.11499">DreamLLM&#58; Synergistic Multimodal Comprehension and Creation</a> <br/>
+    - <a href="https://arxiv.org/abs/2303.03378">PaLM-E&#58; An Embodied Multimodal Language Model</a> <br/>
 
 - date: 3/20
   title: >
-    Week 7 <strong>Discussion 4: Cross-modal learning</strong>
+    Week 7 <strong>Discussion 4: Multimodal interactions</strong>
   slides:
   topics:
   readings:
-  - '<a href="https://arxiv.org/abs/2306.14824">Kosmos-2: Grounding Multimodal Large Language Models to the World</a> <br/>'
-  - '<a href="https://arxiv.org/abs/2405.09818">Chameleon: Mixed-modal early-fusion foundation models</a> <br/>'
-  - '<a href="https://link.springer.com/chapter/10.1007/978-3-031-73397-0_18">MM1: Methods, Analysis and Insights from Multimodal LLM Pre-training</a><br/>'
-  - '<a href="https://arxiv.org/pdf/2407.21770">MoMa: Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts</a> <br/>'
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/319382.319398">Ten Myths of Multimodal Interaction</a> <br/>
+    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br/>
+    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br/>
+    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
+    - <a href="https://arxiv.org/abs/2306.14824">Kosmos-2&#58; Grounding Multimodal Large Language Models to the World</a> <br/>
+    - <a href="https://arxiv.org/abs/2405.09818">Chameleon&#58; Mixed-modal early-fusion foundation models</a> <br/>
+    - <a href="https://link.springer.com/chapter/10.1007/978-3-031-73397-0_18">MM1&#58; Methods, Analysis and Insights from Multimodal LLM Pre-training</a><br/>
+    - <a href="https://arxiv.org/pdf/2407.21770">MoMa&#58; Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts</a> <br/>
 
 - date: 3/25
   title: >
