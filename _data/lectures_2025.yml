@@ -182,13 +182,19 @@
 
 - date: 4/1
   title: >
-    Week 9 <strong>Large models 1: Large Foundation Models</strong>
+    Week 9 <strong>Large models 1: Large Foundation Models</strong> <a href="lec7 - large models.pdf">[slides]</a>
   slides:
   topics:
    - Pre-training data <br/>
    - Self-supervised learning <br/>
    - Fine-tuning, instructing, alignment
   readings:
+  - <a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal Large Language Models</a> <br/>
+  - '<a href="https://arxiv.org/abs/2204.07705">Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2106.09685">LoRA: Low-Rank Adaptation of Large Language Models</a> <br/>'
+  - '<a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts">A Visual Guide to Mixture of Experts (MoE)</a> <br/>'
+  - '<a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization">A Visual Guide to Quantization</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2310.03744">Improved Baselines with Visual Instruction Tuning</a> <br/>'
 
 - date: 4/3
   title: >
