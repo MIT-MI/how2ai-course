@@ -182,7 +182,7 @@
 
 - date: 4/1
   title: >
-    Week 9 <strong>Large models 1: Large Foundation Models</strong> <a href="lec7 - large models.pdf">[slides]</a>
+    Week 9 <strong>Large models 1: Large foundation models</strong> <a href="lec7 - large models.pdf">[slides]</a>
   slides:
   topics:
    - Pre-training data <br/>
@@ -212,7 +212,7 @@
 
 - date: 4/15
   title: >
-    Week 11 <strong>Large models 2: Large multimodal models</strong>
+    Week 11 <strong>Large models 2: Large multimodal models</strong> <a href="lec8 - large multimodal models.pdf">[slides]</a>
   slides:
   topics:
     - Multimodal pre-training <br/>
