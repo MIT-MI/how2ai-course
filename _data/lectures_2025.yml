@@ -164,7 +164,6 @@
   slides:
   topics:
   readings:
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/319382.319398">Ten Myths of Multimodal Interaction</a> <br/>
     - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br/>
     - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br/>
     - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
@@ -219,6 +218,11 @@
     - Adapting large language models to multimodal <br/>
     - Multimodal LLMs with generation
   readings:
+  - '<a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework</a> <br/>'
+  - '<a href="https://arxiv.org/abs/1906.00295">Multimodal Transformer for Unaligned Multimodal Language Sequences </a> <br/>'
+  - '<a href="https://arxiv.org/abs/2111.06377">Masked Autoencoders Are Scalable Vision Learners</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2504.07951">Scaling Laws for Native Multimodal Models Scaling Laws for Native Multimodal Models</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2504.06256">Transfer between Modalities with MetaQueries</a> <br/>'
 
 - date: 4/17
   title: >
@@ -226,6 +230,14 @@
   slides:
   topics:
   readings:
+  - '<a href="https://arxiv.org/pdf/2303.16199">LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention</a> <br/>'
+  - '<a href="https://arxiv.org/pdf/2403.14520">Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference</a> <br/>'
+  - '<a href="https://arxiv.org/abs/2401.06395">ModaVerse: Efficiently Transforming Modalities with LLMs</a> <br/>'
+  - '<a href="https://arxiv.org/pdf/2411.09439">Spider: Any-to-Many Multimodal LLM</a> <br/>'
+  - '<a href="https://arxiv.org/pdf/2402.05935">SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models</a> <br/>'
+  - '<a href="https://arxiv.org/pdf/2404.16821">How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites</a> <br/>'
+  - '<a href="https://arxiv.org/pdf/2309.05519">NExT-GPT: Any-to-Any Multimodal LLM</a> <br/>'
+  - '<a href="https://arxiv.org/pdf/2404.08347">Learning to rebalance multi-modal optimization by adaptively masking subnetworks</a> <br/>'
 
 - date: 4/22
   title: >
