@@ -241,11 +241,12 @@
 
 - date: 4/22
   title: >
-    Week 12 <strong>Large models 3: Modern generative models</strong>
+    Week 12 <strong>Large models 3: Modern generative models</strong><a href="lec9 - generative AI.pdf">[slides]</a>
   slides:
   topics:
     - Diffusion models <br/>
-    - Controllable generation
+    - Controllable generation <br/>
+    - Flow Matching
   readings:
 
 - date: 4/24
