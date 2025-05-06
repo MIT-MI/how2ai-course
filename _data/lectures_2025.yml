@@ -261,7 +261,7 @@
     Week 13 <strong>Interaction 1: Interactive agents and reasoning</strong>
   slides:
   topics:
-    - WebAgent platforms <br/>
+    - Reinforcement learning <br/>
     - Multi-step reasoning
   readings:
 
@@ -274,12 +274,11 @@
 
 - date: 5/6
   title: >
-    Week 14 <strong>Interaction 2: Embodied AI</strong>
+    Week 14 <strong>Interaction 2: Interactive agents and reasoning</strong> <a href="lec11 - interaction.pdf">[slides]</a>
   slides:
   topics:
     - Reinforcement learning <br/>
-    - Tangible and embodied systems <br/>
-    - Real-world considerations
+    - Multi-step reasoning
   readings:
 
 - date: 5/8
