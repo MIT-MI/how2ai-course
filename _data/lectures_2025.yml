@@ -258,11 +258,9 @@
 
 - date: 4/29
   title: >
-    Week 13 <strong>Interaction 1: Interactive agents and reasoning</strong>
+    Week 13 <strong>No class, CHI week</strong>
   slides:
   topics:
-    - Reinforcement learning <br/>
-    - Multi-step reasoning
   readings:
 
 - date: 5/1
@@ -274,7 +272,7 @@
 
 - date: 5/6
   title: >
-    Week 14 <strong>Interaction 2: Interactive agents and reasoning</strong> <a href="lec11 - interaction.pdf">[slides]</a>
+    Week 14 <strong>Interaction 1: Interactive agents and reasoning</strong> <a href="lec11 - interaction.pdf">[slides]</a>
   slides:
   topics:
     - Reinforcement learning <br/>
@@ -290,7 +288,7 @@
 
 - date: 5/13
   title: >
-    Week 15 <strong>Interaction 3: Human AI interaction</strong>
+    Week 15 <strong>Interaction 2: Human AI interaction</strong> <a href="lec12 - human.pdf">[slides]</a>
   slides:
   topics:
     - Interaction mediums <br/>
