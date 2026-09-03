@@ -1,323 +1,88 @@
-- date: 2/4
+- date: 9/9
   title: >
-    Week 1 <strong>Introduction</strong> <a href="lec1 - introduction.pdf">[slides]</a> <a href="https://youtu.be/0MYt0u3CW5I">[video]</a>
-  slides:
+    Week 1 <strong>Course introduction</strong>
   topics:
-    - Course syllabus and requirements <br/>
-    - Introduction to AI and AI research
-  readings:
-    - <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br/>
-    - <a href="https://arxiv.org/abs/1705.09406">Multimodal Machine Learning&#58; A Survey and Taxonomy</a> <br/>
-    - <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br/>
+    - Basics of LLMs and foundation models <br/>
+    - AI agents and self-evolution
 
-- date: 2/6
+- date: 9/16
   title: >
-    Week 1 <strong>Introduction to AI Research</strong> <a href="lec1.2 - AI research.pdf">[slides]</a> <a href="https://youtu.be/104FX8MYKAM">[video]</a>
-  slides:
+    Week 2 <strong>Context evolution 1</strong>
   topics:
-    - Introduction to AI and AI research <br/>
-    - Generating ideas, reading and writing papers, AI experimentation
-  readings:
+    - Prompt optimization <br/>
+    - Memory, tools, knowledge
 
-- date: 2/11
+- date: 9/23
   title: >
-    Week 2 <strong>Foundation 1: Data, structure, information</strong> <a href="lec2 - data.pdf">[slides]</a> <a href="https://youtu.be/fLybbXyfN28">[video]</a>
-  slides:
+    Week 3 <strong>Context evolution 2</strong>
   topics:
-    - Common data modalities <br/>
-    - Data collection strategies <br/>
-    - Training objectives and generalization
-  readings:
-    - <a href="https://www.science.org/doi/abs/10.1126/science.aaa8415">Machine learning&#58; Trends, Perspectives, and Prospects</a> <br/>
-    - <a href="https://arxiv.org/abs/1206.5538">Representation Learning&#58; A Review and New Perspectives</a> <br/>
-    - <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br/>
-    - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
+    - LLMs as optimizers <br/>
+    - LLMs for discovery
 
-- date: 2/14
+- date: 9/30
   title: >
-    Week 2 <strong>Foundation 2: Practical AI tools</strong> <a href="Debugging Tips.pdf">[slides]</a> <a href="https://youtu.be/NOSuy0NOe9k">[video]</a>
-  slides:
+    Week 4 <strong>Project proposal presentations</strong>
   topics:
-    - Getting started with PyTorch <br/>
-    - Huggingface packages <br/>
-    - Debugging machine learning models
-  readings:
-    - <a href="https://karpathy.github.io/2019/04/25/recipe/">A Recipe for Training Neural Networks</a> <br/>
-    - <a href="https://colab.research.google.com/drive/1EDsjYRrAiujUew0GRJ_hyVoNMsSDnlnx?usp=sharing">Fine-tuning a Code LLM on Custom Code on a single GPU</a> <br/>
-    - <a href="https://colab.research.google.com/drive/1SoTu6gvYcLNDqPwNPTWmsSYF-l-UfHPx?usp=sharing">MAS.S60 Pytorch Introduction</a> <br/>
 
-- date: 2/18
+- date: 10/7
   title: >
-    Week 3 <strong>No class, shifted President's day</strong>
-  slides:
+    Week 5 <strong>Harness evolution 1</strong>
   topics:
-  readings:
+    - Harness components <br/>
+    - Multi-agent systems
 
-- date: 2/20
+- date: 10/14
   title: >
-    Week 3 <strong>Project proposal presentations</strong>
-  slides:
+    Week 6 <strong>Harness evolution 2</strong>
   topics:
-  readings:
+    - Self-evolving harnesses
 
-- date: 2/25
+- date: 10/21
   title: >
-    Week 4 <strong>Foundation 3: Model architectures</strong> <a href="lec3 - models.pdf">[slides]</a> <a href="https://youtu.be/V0gRkmu4mFY">[video]</a>
-  slides:
+    Week 7 <strong>Member's week, no class</strong>
   topics:
-    - Structure and invariances <br/>
-    - Temporal sequence models <br/>
-    - Spatial convolution models <br/>
-    - Models for sets and graphs
-  readings:
-    - <a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning&#58; Grids, Groups, Graphs, Geodesics, and Gauges</a> <br/>
-    - <a href="https://arxiv.org/abs/2010.11929">An Image is Worth 16x16 Words&#58; Transformers for Image Recognition at Scale</a> <br/>
-    - <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a> <br/>
-    - <a href="https://arxiv.org/abs/1409.0473">Neural Machine Translation by Jointly Learning to Align and Translate</a> <br/>
-    - <a href="https://arxiv.org/abs/1703.06114">Deep Sets</a> <br/>
-    - <a href="https://arxiv.org/abs/1710.10903">Graph Attention Networks</a> <br/>
 
-- date: 2/25
+- date: 10/28
   title: >
-    Week 4 <strong>Discussion 1: Learning and generalization</strong>
-  slides:
+    Week 8 <strong>Project midterm presentations</strong>
   topics:
-  readings:
-    - <a href="https://arxiv.org/pdf/2410.09649">Learning the Bitter Lesson</a> <br/>
-    - <a href="https://arxiv.org/pdf/2303.06173">Unifying Grokking and Double Descent</a> <br/>
-    - <a href="https://arxiv.org/pdf/2209.01610">Generalization in Neural Networks</a> <br/>
-    - <a href="https://arxiv.org/pdf/2306.11644">Textbooks are all you Need</a> <br/>
-    - <a href="https://arxiv.org/pdf/2207.07528">A Conceptual Pipeline for Machine Learning</a> <br/>
 
-- date: 3/4
+- date: 11/4
   title: >
-    Week 5 <strong>Multimodal 1: Connections and alignment</strong> <a href="lec4 - multimodal.pdf">[slides]</a> <a href="https://youtu.be/kixc1mh55yY">[video]</a>
-  slides:
+    Week 9 <strong>Model evolution 1</strong>
   topics:
-    - Heterogeneity, connections, and interactions <br/>
-    - Multimodal technical challenges <br/>
-    - Alignment and transformers
-  readings:
-    - <a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning&#58; Principles, Challenges, and Open Questions</a> <br/>
-    - <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br/>
-    - <a href="https://link.springer.com/article/10.1007/s13735-019-00187-6">Characterization and classification of semantic image-text relations</a> <br/>
-    - <a href="https://arxiv.org/abs/2210.01936">When and why vision-language models behave like bags-of-words, and what to do about it?</a> <br/>
+    - Continual learning <br/>
+    - Distillation <br/>
+    - Test-time training
 
-- date: 3/6
+- date: 11/11
   title: >
-    Week 5 <strong>Discussion 2: Modern AI architectures</strong>
-  slides:
+    Week 10 <strong>Model evolution 2</strong>
   topics:
-  readings:
-    - '<a href="https://arxiv.org/abs/2301.03728">Scaling Laws for Generative Mixed-Modal Models</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2404.07965">Not All Tokens Are What You Need for Pretraining</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2209.06794">PaLI: A Jointly-Scaled Multilingual Language-Image Model</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2405.17927">The Evolution of Multimodal Model Architectures</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2010.11929">An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2201.03545">A ConvNet for the 2020s</a> <br/>'
-    - '<a href="https://arxiv.org/abs/1706.02216">Inductive Representation Learning on Large Graphs</a> <br/>'
-    - '<a href="https://arxiv.org/abs/1811.01900">Janossy Pooling: Learning Deep Permutation-Invariant Functions for Variable-Size Inputs</a> <br/>'
+    - Self-play approaches
 
-- date: 3/11
+- date: 11/18
   title: >
-    Week 6 <strong>Multimodal 2: Interactions and fusion</strong> <a href="lec5 - fusion.pdf">[slides]</a> <a href="https://youtu.be/Hsv1mOIZ1Ag">[video]</a>
-  slides:
+    Week 11 <strong>Task evolution 1</strong>
   topics:
-    - Cross-modal interactions <br/>
-    - Multimodal fusion
-  readings:
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/319382.319398">Ten Myths of Multimodal Interaction</a> <br/>
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br/>
-    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
+    - Synthetic data and tasks <br/>
+    - Environment generation
 
-- date: 3/13
+- date: 11/25
   title: >
-    Week 6 <strong>Discussion 3: Multimodal alignment</strong>
-  slides:
+    Week 12 <strong>Task evolution 2</strong>
   topics:
-  readings:
-    - <a href="https://arxiv.org/pdf/2405.07987">The Platonic Representation Hypothesis</a> <br/>
-    - <a href="https://arxiv.org/abs/2005.10243">What Makes for Good Views for Contrastive Learning?</a> <br/>
-    - <a href="https://arxiv.org/pdf/2502.16282"> Understanding the Emergence of Multimodal Representation Alignment</a> <br/>
-    - <a href="https://arxiv.org/abs/2410.23179"> Does equivariance matter at scale?</a> <br/>
-    - <a href="https://arxiv.org/pdf/2103.00020"> Learning Transferable Visual Models From Natural Language Supervision?</a> <br/>
-    - <a href="https://arxiv.org/pdf/2104.14294"> Emerging Properties in Self-Supervised Vision Transformers</a> <br/>
-    - <a href="https://arxiv.org/abs/2209.03430"> Foundations & trends in multimodal machine learning - Principles, challenges, and open questions </a> <br/>
+    - Evolving evaluation <br/>
+    - Rewards
 
-- date: 3/18
+- date: 12/2
   title: >
-    Week 7 <strong>Multimodal 3: Cross-modal transfer</strong> <a href="lec6 - crossmodal.pdf">[slides]</a> <a href="https://youtu.be/k4kywHmr3AA">[video]</a>
-  slides:
+    Week 13 <strong>Project final presentations</strong>
   topics:
-    - Cross-modal learning via fusion <br/>
-    - Cross-modal learning via alignment <br/>
-    - Cross-modal learning via translation
-  readings:
-    - <a href="https://arxiv.org/abs/2303.00915v3">LLaVA-Med&#58; Training a Large Language-and-Vision Assistant for Biomedicine in One Day</a> <br/>
-    - <a href="https://arxiv.org/abs/2309.11499">DreamLLM&#58; Synergistic Multimodal Comprehension and Creation</a> <br/>
-    - <a href="https://arxiv.org/abs/2303.03378">PaLM-E&#58; An Embodied Multimodal Language Model</a> <br/>
 
-- date: 3/20
+- date: 12/9
   title: >
-    Week 7 <strong>Discussion 4: Multimodal interactions</strong>
-  slides:
+    Week 14 <strong>Future topics</strong>
   topics:
-  readings:
-    - <a href="https://www.sciencedirect.com/science/article/pii/S0167865513002584">Multimodal interaction&#58; A review</a> <br/>
-    - <a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions&#58; An Information Decomposition Framework</a> <br/>
-    - <a href="https://aclanthology.org/2020.emnlp-main.62/">Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!</a> <br/>
-    - <a href="https://arxiv.org/abs/2306.14824">Kosmos-2&#58; Grounding Multimodal Large Language Models to the World</a> <br/>
-    - <a href="https://arxiv.org/abs/2405.09818">Chameleon&#58; Mixed-modal early-fusion foundation models</a> <br/>
-    - <a href="https://link.springer.com/chapter/10.1007/978-3-031-73397-0_18">MM1&#58; Methods, Analysis and Insights from Multimodal LLM Pre-training</a><br/>
-    - <a href="https://arxiv.org/pdf/2407.21770">MoMa&#58; Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts</a> <br/>
-
-- date: 3/25
-  title: >
-    Week 8 <strong>No class, spring break</strong>
-  slides:
-  topics:
-  readings:
-
-- date: 4/1
-  title: >
-    Week 9 <strong>Large models 1: Large foundation models</strong> <a href="lec7 - large models.pdf">[slides]</a> <a href="https://youtu.be/ZFLRDEUSX68">[video]</a>
-  slides:
-  topics:
-    - Pre-training data <br/>
-    - Self-supervised learning <br/>
-    - Fine-tuning, instructing, alignment
-  readings:
-    - '<a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal Large Language Models</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2204.07705">Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2106.09685">LoRA: Low-Rank Adaptation of Large Language Models</a> <br/>'
-    - '<a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts">A Visual Guide to Mixture of Experts (MoE)</a> <br/>'
-    - '<a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization">A Visual Guide to Quantization</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2310.03744">Improved Baselines with Visual Instruction Tuning</a> <br/>'
-
-- date: 4/3
-  title: >
-    Week 9 <strong>Project midterm presentations</strong>
-  slides:
-  topics:
-  readings:
-
-- date: 4/8
-  title: >
-    Week 10 <strong>No class, member's week</strong>
-  slides:
-  topics:
-  readings:
-
-- date: 4/15
-  title: >
-    Week 11 <strong>Large models 2: Large multimodal models</strong> <a href="lec8 - large multimodal models.pdf">[slides]</a> <a href="https://youtu.be/p_GGsKgGxSo">[video]</a>
-  slides:
-  topics:
-    - Multimodal pre-training <br/>
-    - Adapting large language models to multimodal <br/>
-    - Multimodal LLMs with generation
-  readings:
-    - '<a href="https://arxiv.org/abs/2302.12247">Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework</a> <br/>'
-    - '<a href="https://arxiv.org/abs/1906.00295">Multimodal Transformer for Unaligned Multimodal Language Sequences </a> <br/>'
-    - '<a href="https://arxiv.org/abs/2111.06377">Masked Autoencoders Are Scalable Vision Learners</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2504.07951">Scaling Laws for Native Multimodal Models Scaling Laws for Native Multimodal Models</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2504.06256">Transfer between Modalities with MetaQueries</a> <br/>'
-
-- date: 4/17
-  title: >
-    Week 11 <strong>Discussion 5: Large language models</strong>
-  slides:
-  topics:
-  readings:
-    - '<a href="https://arxiv.org/abs/2106.09685 ">LoRA: Low-Rank Adaptation of Large Language Models</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2312.06635 ">Gated Linear Attention Transformers with Hardware-Efficient Training</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2402.15018 ">Unintended Impacts of LLM Alignment on Global Representation</a> <br/>'
-    - '<a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization">A Visual Guide to Quantization</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2106.09685 ">Scaling Instruction-Finetuned Language Models</a> <br/>'
-
-- date: 4/22
-  title: >
-    Week 12 <strong>Large models 3: Modern generative models</strong> <a href="lec9 - generative AI.pdf">[slides]</a> <a href=" ">[video]</a>
-  slides:
-  topics:
-    - Diffusion models <br/>
-    - Controllable generation <br/>
-    - Flow Matching
-  readings:
-    - '<a href="https://arxiv.org/abs/2212.09748">Scalable Diffusion Models with Transformers</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2307.08698">Flow Matching in Latent Space</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2403.03206">Scaling Rectified Flow Transformers for High-Resolution Image Synthesis</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2410.13720">Movie Gen: A Cast of Media Foundation Models</a> <br/>'
-
-- date: 4/24
-  title: >
-    Week 12 <strong>Discussion 6: Large multimodal models</strong>
-  slides:
-  topics:
-  readings:
-    - '<a href="https://arxiv.org/pdf/2303.16199">LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention</a> <br/>'
-    - '<a href="https://arxiv.org/pdf/2403.14520">Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2401.06395">ModaVerse: Efficiently Transforming Modalities with LLMs</a> <br/>'
-    - '<a href="https://arxiv.org/pdf/2411.09439">Spider: Any-to-Many Multimodal LLM</a> <br/>'
-    - '<a href="https://arxiv.org/pdf/2402.05935">SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models</a> <br/>'
-    - '<a href="https://arxiv.org/pdf/2404.16821">How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites</a> <br/>'
-    - '<a href="https://arxiv.org/pdf/2309.05519">NExT-GPT: Any-to-Any Multimodal LLM</a> <br/>'
-    - '<a href="https://arxiv.org/pdf/2404.08347">Learning to rebalance multi-modal optimization by adaptively masking subnetworks</a> <br/>'
-
-- date: 4/29
-  title: >
-    Week 13 <strong>No class, CHI week</strong>
-  slides:
-  topics:
-  readings:
-
-- date: 5/1
-  title: >
-    Week 13 <strong>Discussion 7: Generative AI</strong>
-  slides:
-  topics:
-  readings:
-    - '<a href="https://arxiv.org/pdf/2502.09992">Large Language Diffusion Models</a><br/>'
-    - '<a href="https://arxiv.org/pdf/2402.01103">Compositional Generative Modeling: A Single Model is Not All You Need</a><br/>'
-    - '<a href="https://arxiv.org/abs/2210.02747">Flow Matching for Generative Modeling</a><br/>'
-    - '<a href="https://arxiv.org/abs/2412.06264">Flow Matching Guide and Code</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2504.01338">FlowMotion: Target-Predictive Conditional Flow Matching for Jitter-Reduced Text-to-Motion Generation</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2504.13535">MusFlow: Multimodal Music Generation via Conditional Flow Matching</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2311.07625">Unraveling the Connections Between Flow Matching and Diffusion Probabilistic Models</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2412.11024">Exploring Diffusion and Flow Matching Under Generator Matching</a> <br/>'
-
-- date: 5/6
-  title: >
-    Week 14 <strong>Interaction 1: Interactive agents and reasoning</strong> <a href="lec10 - interaction.pdf">[slides]</a> <a href="https://youtu.be/3SOjOG2oL1w">[video]</a>
-  slides:
-  topics:
-    - Reinforcement learning <br/>
-    - Multi-step reasoning
-  readings:
-    - '<a href="https://arxiv.org/abs/1706.03741">Deep reinforcement learning from human preferences</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2501.12948">Deepseek-r1: Incentivizing reasoning capability in LLMs via reinforcement learning</a> <br/>'
-    - '<a href="https://openai.com/index/faulty-reward-functions/">Faulty reward functions in the wild</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2305.18290">Direct preference optimization: Your language model is secretly a reward model</a> <br/>'
-
-- date: 5/8
-  title: >
-    Week 14 <strong>Project final presentations</strong>
-  slides:
-  topics:
-  readings:
-
-- date: 5/13
-  title: >
-    Week 15 <strong>Interaction 2: Human AI interaction</strong> <a href="lec11 - human.pdf">[slides]</a> <a href="https://youtu.be/NrmLjmXU66M">[video]</a>
-  slides:
-  topics:
-    - Interaction mediums <br/>
-    - Human in the loop learning <br/>
-    - Safety and reliability
-  readings:
-    - '<a href="https://arxiv.org/abs/2503.16434">Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2410.19100">VideoWebArena: Evaluating Multimodal Agents on Video Understanding Web Tasks</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2406.09246">OpenVLA: An Open-Source Vision-Language-Action Model</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2402.11753">ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs</a> <br/>'
-    - '<a href="https://dl.acm.org/doi/abs/10.1145/3290605.3300233">Guidelines for Human-AI Interaction</a> <br/>'
+    - AI for scientific discovery <br/>
+    - Embodied harnesses
