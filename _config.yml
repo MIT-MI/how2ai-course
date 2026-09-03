@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 author: MIT Multisensory Intelligence Group
-name: MAS.S60 How2AI
-title: How to AI (Almost) Anything
+name: MAS.S62 AI4AI
+title: How to AI an AI for (Almost) Anything
 email:
 description: >
-  MAS.S60 - How to AI (Almost) Anything - MIT - Spring 2025
+  MAS.S60 - How to AI an AI for (Almost) Anything - MIT - Fall 2026
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
