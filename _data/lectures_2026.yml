@@ -67,15 +67,15 @@
   title: >
     Week 11 <strong>Environment evolution 2</strong>
   topics:
-    - Evolving evaluation <br/>
-    - Evolving rewards
+    - World models <br/>
+    - Evolving evaluation and rewards
 
 - date: 11/25
   title: >
     Week 12 <strong>Future topics</strong>
   topics:
     - AI for scientific discovery<br/>
-    - Embodied harnesses
+    - Multimodal agents
 
 - date: 12/2
   title: >
@@ -86,5 +86,5 @@
   title: >
     Week 14 <strong>Future topics</strong>
   topics:
-    - Safe evolution <br/>
-    - TBD
+    - Embodied harnesses <br/>
+    - Safe evolution
