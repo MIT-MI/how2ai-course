@@ -39,41 +39,43 @@
 
 - date: 10/21
   title: >
-    Week 7 <strong>Member's week, no class</strong>
+    Week 7 <strong>Project midterm presentations</strong>
   topics:
 
 - date: 10/28
   title: >
-    Week 8 <strong>Project midterm presentations</strong>
-  topics:
-
-- date: 11/4
-  title: >
-    Week 9 <strong>Model evolution 1</strong>
+    Week 8 <strong>Model evolution 1</strong>
   topics:
     - Continual learning <br/>
     - Distillation <br/>
     - Test-time training
 
-- date: 11/11
+- date: 11/4
   title: >
-    Week 10 <strong>Model evolution 2</strong>
+    Week 9 <strong>Model evolution 2</strong>
   topics:
     - Self-play approaches
 
-- date: 11/18
+- date: 11/11
   title: >
-    Week 11 <strong>Task evolution 1</strong>
+    Week 10 <strong>Environment evolution 1</strong>
   topics:
     - Synthetic data and tasks <br/>
     - Environment generation
 
-- date: 11/25
+- date: 11/18
   title: >
-    Week 12 <strong>Task evolution 2</strong>
+    Week 11 <strong>Environment evolution 2</strong>
   topics:
     - Evolving evaluation <br/>
-    - Rewards
+    - Evolving rewards
+
+- date: 11/25
+  title: >
+    Week 12 <strong>Future topics</strong>
+  topics:
+    - AI for scientific discovery<br/>
+    - Embodied harnesses
 
 - date: 12/2
   title: >
@@ -84,5 +86,5 @@
   title: >
     Week 14 <strong>Future topics</strong>
   topics:
-    - AI for scientific discovery <br/>
-    - Embodied harnesses
+    - Safe evolution <br/>
+    - TBD
