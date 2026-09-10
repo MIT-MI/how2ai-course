@@ -1,6 +1,6 @@
 - date: 9/9
   title: >
-    Week 1 <strong>Course introduction</strong>
+    Week 1 <strong>Course introduction</strong> <a href="lec1 - intro.pdf">[slides]</a>
   topics:
     - Basics of LLMs and foundation models <br/>
     - AI agents and self-evolution
