@@ -7,14 +7,14 @@
 
 - date: 9/16
   title: >
-    Week 2 <strong>Context evolution 1</strong>
+    Week 2 <strong>Context evolution 1</strong> <a href=" ">[slides]</a>
   topics:
     - Prompt optimization <br/>
     - Memory, tools, knowledge
 
 - date: 9/23
   title: >
-    Week 3 <strong>Context evolution 2</strong>
+    Week 3 <strong>Context evolution 2</strong> <a href=" ">[slides]</a>
   topics:
     - LLMs as optimizers <br/>
     - LLMs for discovery
@@ -26,14 +26,14 @@
 
 - date: 10/7
   title: >
-    Week 5 <strong>Harness evolution 1</strong>
+    Week 5 <strong>Harness evolution 1</strong> <a href=" ">[slides]</a>
   topics:
     - Harness components <br/>
     - Multi-agent systems
 
 - date: 10/14
   title: >
-    Week 6 <strong>Harness evolution 2</strong>
+    Week 6 <strong>Harness evolution 2</strong> <a href=" ">[slides]</a>
   topics:
     - Self-evolving harnesses
 
@@ -44,7 +44,7 @@
 
 - date: 10/28
   title: >
-    Week 8 <strong>Model evolution 1</strong>
+    Week 8 <strong>Model evolution 1</strong> <a href=" ">[slides]</a>
   topics:
     - Continual learning <br/>
     - Distillation <br/>
@@ -52,27 +52,27 @@
 
 - date: 11/4
   title: >
-    Week 9 <strong>Model evolution 2</strong>
+    Week 9 <strong>Model evolution 2</strong> <a href=" ">[slides]</a>
   topics:
     - Self-play approaches
 
 - date: 11/11
   title: >
-    Week 10 <strong>Environment evolution 1</strong>
+    Week 10 <strong>Environment evolution 1</strong> <a href=" ">[slides]</a>
   topics:
     - Synthetic data and tasks <br/>
     - Environment generation
 
 - date: 11/18
   title: >
-    Week 11 <strong>Environment evolution 2</strong>
+    Week 11 <strong>Environment evolution 2</strong> <a href=" ">[slides]</a>
   topics:
     - World models <br/>
     - Evolving evaluation and rewards
 
 - date: 11/25
   title: >
-    Week 12 <strong>Future topics</strong>
+    Week 12 <strong>Future topics</strong> <a href=" ">[slides]</a>
   topics:
     - AI for scientific discovery<br/>
     - Multimodal agents
@@ -84,7 +84,7 @@
 
 - date: 12/9
   title: >
-    Week 14 <strong>Future topics</strong>
+    Week 14 <strong>Future topics</strong> <a href=" ">[slides]</a>
   topics:
     - Embodied harnesses <br/>
     - Safe evolution
