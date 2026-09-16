@@ -7,7 +7,7 @@
 
 - date: 9/16
   title: >
-    Week 2 <strong>Context evolution 1</strong> <a href=" ">[slides]</a>
+    Week 2 <strong>Context evolution 1</strong> <a href=" ">[slides]</a> <a href="lec2_textgrad.ipynb">[notebook]</a> <a href="https://colab.research.google.com/github/MIT-MI/how2ai-course/blob/main/fall2026/schedule/lec2_textgrad.ipynb">[colab]</a>
   topics:
     - Prompt optimization <br/>
     - Memory, tools, knowledge
