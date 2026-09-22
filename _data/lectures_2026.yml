@@ -5,7 +5,7 @@
     - Basics of LLMs and foundation models <br/>
     - AI agents and self-evolution
   readings:
-    - 
+    - '<a href=" "> </a> <br/>'
 
 - date: 9/16
   title: >
@@ -14,7 +14,13 @@
     - Prompt optimization <br/>
     - Memory, tools, knowledge
   readings:
-    - 
+    - '<a href="https://arxiv.org/abs/2211.01910">Large Language Models Are Human-Level Prompt Engineers</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2406.07496">TextGrad: Automatic "Differentiation" via Text</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2310.03714">DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2303.11366">Reflexion: Language Agents with Verbal Reinforcement Learning</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2506.17930">Evolving Prompts In-Context: An Open-ended, Self-replicating Perspective</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2507.19457">GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2509.25140">ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory</a> <br/>'
 
 - date: 9/23
   title: >
@@ -22,6 +28,10 @@
   topics:
     - LLMs as optimizers <br/>
     - LLMs for discovery
+  readings:
+    - '<a href="https://www.nature.com/articles/s41586-023-06924-6">FunSearch: Mathematical discoveries from program search with large language models</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2309.03409">Large Language Models as Optimizers</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2506.13131">AlphaEvolve: A coding agent for scientific and algorithmic discovery</a> <br/>'
 
 - date: 9/30
   title: >
