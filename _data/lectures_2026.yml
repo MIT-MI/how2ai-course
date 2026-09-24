@@ -24,7 +24,7 @@
 
 - date: 9/23
   title: >
-    Week 3 <strong>Context evolution 2</strong> <a href=" ">[slides]</a>
+    Week 3 <strong>Context evolution 2</strong> <a href="lec3 - llm optimizers.pdf">[slides]</a>
   topics:
     - LLMs as optimizers <br/>
     - LLMs for discovery
