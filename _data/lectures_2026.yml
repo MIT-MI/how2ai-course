@@ -9,7 +9,7 @@
 
 - date: 9/16
   title: >
-    Week 2 <strong>Context evolution 1</strong> <a href="lec2 - context.pdf">[slides]</a> <a href="https://colab.research.google.com/drive/1rL24Ydm9yQKRUPoGXHr2-zJumFbBRfvJ">[colab]</a> <a href="/how2ai-course/fall2026/openai-key/">[API key]</a>
+    Week 2 <strong>Context evolution 1</strong> <a href="lec2 - context.pdf">[slides]</a> <a href="https://colab.research.google.com/drive/1rL24Ydm9yQKRUPoGXHr2-zJumFbBRfvJ">[colab]</a>
   topics:
     - Prompt optimization <br/>
     - Memory, tools, knowledge
