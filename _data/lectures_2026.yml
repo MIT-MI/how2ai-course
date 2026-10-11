@@ -40,16 +40,33 @@
 
 - date: 10/7
   title: >
-    Week 5 <strong>Harness evolution 1</strong> <a href=" ">[slides]</a>
+    Week 5 <strong>Harness evolution 1</strong> <a href="lec4 - harness.pdf">[slides]</a>
   topics:
     - Harness components <br/>
-    - Multi-agent systems
+    - Agent memory <br/>
+    - Tool and skill evolution
+  readings:
+    - '<a href="https://arxiv.org/abs/2505.22954">Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2512.24601">Recursive Language Models</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2609.37725">Context Language Models</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2506.15841">MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-horizon Agents</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2303.11366">Reflexion: Language Agents with Verbal Reinforcement Learning</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2305.16291">Voyager: An Open-Ended Embodied Agent with Large Language Models</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2603.28052">Meta-Harness: End-to-End Optimization of Model Harnesses</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2605.09998">Continual Harness: Online Adaptation for Self-Improving Foundation Agents</a> <br/>'
+    - '<a href="https://arena.ai/blog/coding-agents-harness-tax">HarnessTax: How Much Does the Harness Matter for Coding Agents?</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2605.30621">Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents</a> <br/>'
 
 - date: 10/14
   title: >
     Week 6 <strong>Harness evolution 2</strong> <a href=" ">[slides]</a>
   topics:
-    - Self-evolving harnesses
+    - Multi-agent systemss <br/>
+    - Multi-agent evolution
+  readings:
+    - '<a href="https://arxiv.org/abs/2604.01658">CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2512.08296">Towards a Science of Scaling Agent Systems</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2503.13657">Why Do Multi-Agent LLM Systems Fail?</a> <br/>'
 
 - date: 10/21
   title: >
