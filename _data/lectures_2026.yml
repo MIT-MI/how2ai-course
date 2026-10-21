@@ -40,7 +40,7 @@
 
 - date: 10/7
   title: >
-    Week 5 <strong>Harness evolution 1</strong> <a href="lec4 - harness.pdf">[slides]</a>
+    Week 5 <strong>Harness evolution 1</strong> <a href="lec4 - harness.pdf">[slides 1]</a> <a href="harness_guest.pdf">[slides 2]</a>
   topics:
     - Harness components <br/>
     - Agent memory <br/>
