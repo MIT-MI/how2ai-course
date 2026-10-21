@@ -61,9 +61,10 @@
   title: >
     Week 6 <strong>Harness evolution 2</strong> <a href="harness engineering tutorial.pdf">[slides 1]</a> <a href="lec5 - multi agent.pdf">[slides 2]</a> 
   topics:
-    - Multi-agent systemss <br/>
-    - Multi-agent evolution <br/>
-    - Harness engineering tutorial
+    - Harness engineering tutorial <br/>
+    - Multi-agent systems <br/>
+    - Multi-agent evolution
+    
   readings:
     - '<a href="https://arxiv.org/abs/2604.01658">CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery</a> <br/>'
     - '<a href="https://arxiv.org/abs/2512.08296">Towards a Science of Scaling Agent Systems</a> <br/>'
