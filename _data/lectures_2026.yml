@@ -5,11 +5,10 @@
     - Basics of LLMs and foundation models <br/>
     - AI agents and self-evolution
   readings:
-    - '<a href=" "> </a> <br/>'
 
 - date: 9/16
   title: >
-    Week 2 <strong>Context evolution 1</strong> <a href="lec2 - context.pdf">[slides]</a> <a href="https://colab.research.google.com/drive/1rL24Ydm9yQKRUPoGXHr2-zJumFbBRfvJ">[colab]</a>
+    Week 2 <strong>Context evolution 1</strong> <a href="lec2 - context.pdf">[slides 1]</a> <a href="https://colab.research.google.com/drive/1rL24Ydm9yQKRUPoGXHr2-zJumFbBRfvJ">[tutorial]</a> <a href="context_guest.pdf">[slides 2]</a>
   topics:
     - Prompt optimization <br/>
     - Memory, tools, knowledge
