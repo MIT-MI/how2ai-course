@@ -31,6 +31,9 @@
     - '<a href="https://www.nature.com/articles/s41586-023-06924-6">FunSearch: Mathematical discoveries from program search with large language models</a> <br/>'
     - '<a href="https://arxiv.org/abs/2309.03409">Large Language Models as Optimizers</a> <br/>'
     - '<a href="https://arxiv.org/abs/2506.13131">AlphaEvolve: A coding agent for scientific and algorithmic discovery</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2408.06292">The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2409.04109">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2606.15497">Towards End-to-End Automation of AI Research</a> <br/>'
 
 - date: 9/30
   title: >
@@ -43,14 +46,13 @@
   topics:
     - Harness components <br/>
     - Agent memory <br/>
-    - Tool and skill evolution
+    - Harness evolution
   readings:
     - '<a href="https://arxiv.org/abs/2505.22954">Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents</a> <br/>'
     - '<a href="https://arxiv.org/abs/2512.24601">Recursive Language Models</a> <br/>'
     - '<a href="https://arxiv.org/abs/2609.37725">Context Language Models</a> <br/>'
     - '<a href="https://arxiv.org/abs/2506.15841">MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-horizon Agents</a> <br/>'
     - '<a href="https://arxiv.org/abs/2303.11366">Reflexion: Language Agents with Verbal Reinforcement Learning</a> <br/>'
-    - '<a href="https://arxiv.org/abs/2305.16291">Voyager: An Open-Ended Embodied Agent with Large Language Models</a> <br/>'
     - '<a href="https://arxiv.org/abs/2603.28052">Meta-Harness: End-to-End Optimization of Model Harnesses</a> <br/>'
     - '<a href="https://arxiv.org/abs/2605.09998">Continual Harness: Online Adaptation for Self-Improving Foundation Agents</a> <br/>'
     - '<a href="https://arena.ai/blog/coding-agents-harness-tax">HarnessTax: How Much Does the Harness Matter for Coding Agents?</a> <br/>'
@@ -61,10 +63,14 @@
     Week 6 <strong>Harness evolution 2</strong> <a href="harness engineering tutorial.pdf">[slides 1]</a> <a href="lec5 - multi agent.pdf">[slides 2]</a> 
   topics:
     - Harness engineering tutorial <br/>
-    - Multi-agent systems <br/>
+    - Tool and skill evolution <br/>
     - Multi-agent evolution
     
   readings:
+    - '<a href="https://arxiv.org/abs/2302.04761">Toolformer: Language Models Can Teach Themselves to Use Tools</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2307.16789">ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2602.12670">SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2305.16291">Voyager: An Open-Ended Embodied Agent with Large Language Models</a> <br/>'
     - '<a href="https://arxiv.org/abs/2604.01658">CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery</a> <br/>'
     - '<a href="https://arxiv.org/abs/2512.08296">Towards a Science of Scaling Agent Systems</a> <br/>'
     - '<a href="https://arxiv.org/abs/2503.13657">Why Do Multi-Agent LLM Systems Fail?</a> <br/>'
