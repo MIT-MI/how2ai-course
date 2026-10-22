@@ -77,7 +77,7 @@
 
 - date: 10/21
   title: >
-    Week 7 <strong>Model evolution 1</strong> <a href="lec6 - training.pdf">[slides]</a> 
+    Week 7 <strong>Model evolution 1</strong> <a href="lec6 - training.pdf">[slides 1]</a> 
   topics:
     - Reinforcement learning <br/>
     - Distillation <br/>
