@@ -79,7 +79,7 @@
   title: >
     Week 7 <strong>Model evolution 1</strong> <a href="lec6 - training.pdf">[slides]</a> 
   topics:
-    - Continual learning <br/>
+    - Reinforcement learning <br/>
     - Distillation <br/>
     - Test-time training
 
