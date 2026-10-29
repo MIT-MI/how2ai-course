@@ -77,11 +77,23 @@
 
 - date: 10/21
   title: >
-    Week 7 <strong>Model evolution 1</strong> <a href="lec6 - training.pdf">[slides 1]</a> <a href="lec6 - rl in practice.pdf">[slides 2]</a> <a href="model_guest.pdf">[slides 3]</a>
+    Week 7 <strong>Model evolution 1</strong> <a href="lec6 - training.pdf">[slides 1]</a> <a href="model_guest.pdf">[slides 2]</a>
   topics:
     - Reinforcement learning <br/>
     - Distillation <br/>
     - Test-time training
+  readings:
+    - '<a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2306.13649">On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2504.16084">TTRL: Test-Time Reinforcement Learning</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2401.10020">Self-Rewarding Language Models</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2501.19393">s1: Simple Test-Time Scaling</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2504.13837">Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2503.20783">Understanding R1-Zero-Like Training: A Critical Perspective</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2509.04259">RLs Razor: Why Online Reinforcement Learning Forgets Less</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2601.18734">Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2601.20802">Reinforcement Learning via Self-Distillation</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2502.12118">Scaling Test-Time Compute Without Verification or RL is Suboptimal</a> <br/>'
 
 - date: 10/28
   title: >
@@ -90,9 +102,14 @@
 
 - date: 11/4
   title: >
-    Week 9 <strong>Model evolution 2</strong> <a href=" ">[slides]</a>
+    Week 9 <strong>Model evolution 2</strong> <a href="lec6 - rl in practice.pdf">[slides 1]</a> 
   topics:
+    - RL in practice
     - Self-play approaches
+  readings:
+    - '<a href="https://arxiv.org/abs/2505.03335">Absolute Zero: Reinforced Self-play Reasoning with Zero Data</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2508.05004">R-Zero: Self-Evolving Reasoning LLM from Zero Data</a> <br/>'
+    - '<a href="https://arxiv.org/abs/2512.18160">Propose, Solve, Verify: Self-Play Through Formal Verification</a> <br/>'
 
 - date: 11/11
   title: >
