@@ -102,7 +102,7 @@
 
 - date: 11/4
   title: >
-    Week 9 <strong>Model evolution 2</strong> <a href="lec6 - rl in practice.pdf">[slides 1]</a> 
+    Week 9 <strong>Model evolution 2</strong> <a href="lec6 - rl in practice.pdf">[slides 1]</a> <a href="lec7 - self play.pdf">[slides 2]</a>
   topics:
     - RL in practice
     - Self-play approaches
